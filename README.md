@@ -1,5 +1,6 @@
 # Congressman-Stock-Trading-Anomalies
 Project Description
+
 This project analyzes U.S. congresspersons' stock trading behaviors to investigate two main
 hypotheses: (1) that politicians exploit non-public information or their official positions for
 personal financial gain through stock investments, and (2) that "circles" of politicians (e.g., by
@@ -11,6 +12,7 @@ networks.
 
 
 Methodology
+
 To address these hypotheses, our methodology involves three core steps:
 1. Construct Politician Networks: We will build graphs representing connections between
 politicians based on shared committee memberships, co-sponsorships, and party
@@ -24,5 +26,6 @@ or policy changes, suggesting potential information exploitation.
 
 
 Data Description
+
 Our primary dataset for congressional trading is the "Congressional Trading (Inception to March
 23)" dataset from Kaggle. 
