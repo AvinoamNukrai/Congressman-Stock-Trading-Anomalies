@@ -1,7 +1,7 @@
 # Congressman-Stock-Trading-Anomalies
-Project Description
 
-This project analyzes U.S. congresspersons' stock trading behaviors to investigate two main
+**Project Description
+**This project analyzes U.S. congresspersons' stock trading behaviors to investigate two main
 hypotheses: (1) that politicians exploit non-public information or their official positions for
 personal financial gain through stock investments, and (2) that "circles" of politicians (e.g., by
 party, office, or state) engage in coordinated stock trading. We aim to detect suspicious trading
