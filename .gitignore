@@ -7,6 +7,9 @@
 *.code-workspace
 .history/
 
+# JetBrains
+.idea/
+
 # Python
 __pycache__/
 *.py[cod]
