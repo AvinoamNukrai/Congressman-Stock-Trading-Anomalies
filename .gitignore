@@ -1,3 +1,5 @@
+/config.ini
+
 # VSCode
 .vscode/*
 !.vscode/settings.json
