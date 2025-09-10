@@ -35,6 +35,20 @@ _FIELD_SPECS = [
     ("log_level", "LOG_LEVEL", str, False),
 ]
 
+_FIELD_SPECS_POLITICIAN_NETWORK = [
+    ("transactions_csv", "TRANSACTIONS_CSV", str, True),
+    ("profiles_out", "PROFILES_OUT", str, True),
+    ("collaborations_out", "COLLABORATIONS_OUT", str, True),
+    ("dry_run", "DRY_RUN", bool, False),
+    ("overwrite", "OVERWRITE", bool, False),
+    ("max_profiles", "MAX_PROFILES", int, False),
+    ("max_pairs", "MAX_PAIRS", int, False),
+    ("max_workers", "MAX_WORKERS", int, False),
+    ("intermediate_every", "INTERMEDIATE_EVERY", int, False),
+    ("model_name", "MODEL_NAME", str, False),
+    ("log_level", "LOG_LEVEL", str, False),
+]
+
 _BOOL_TRUE = {"1", "true", "yes", "y", "on"}
 
 
@@ -127,6 +141,66 @@ def load_transactions_config(reload: bool = False) -> SimpleNamespace:
     return SimpleNamespace(**ns_dict)
 
 
+def load_politician_network_config(reload: bool = False) -> SimpleNamespace:
+    parser = load_config(reload=reload)
+    section = "politician_network"
+    if not parser.has_section(section):
+        raise ValueError(f"Missing [{section}] section in config.ini")
+
+    data_raw: Dict[str, Any] = dict(parser.items(section))
+
+    # Fallbacks from [common]
+    common = parser["common"] if parser.has_section("common") else {}
+
+    coercers = {int: int, float: float, bool: _coerce_bool, str: str}
+    ns_dict: Dict[str, Any] = {}
+
+    missing_required = [
+        cfg_key
+        for cfg_key, _, _, req in _FIELD_SPECS_POLITICIAN_NETWORK
+        if req and cfg_key not in data_raw
+    ]
+    if missing_required:
+        raise ValueError(
+            f"Missing required config keys in [{section}]: {', '.join(missing_required)}"
+        )
+
+    for cfg_key, attr, tp, _ in _FIELD_SPECS_POLITICIAN_NETWORK:
+        raw = data_raw.get(cfg_key)
+        if (raw is None or raw == "") and cfg_key in {"model_name", "log_level"}:
+            raw = common.get(cfg_key, None)
+        if raw is None or raw == "":
+            continue
+        try:
+            ns_dict[attr] = coercers[tp](raw)
+        except (TypeError, ValueError, KeyError):
+            raise ValueError(f"Invalid value for {cfg_key}: {raw}") from None
+
+    # Defaults
+    ns_dict.setdefault("DRY_RUN", False)
+    ns_dict.setdefault("OVERWRITE", False)
+    ns_dict.setdefault("MAX_PROFILES", None)
+    ns_dict.setdefault("MAX_PAIRS", None)
+    ns_dict.setdefault("MAX_WORKERS", 4)
+    ns_dict.setdefault("INTERMEDIATE_EVERY", 10)
+    ns_dict.setdefault("MODEL_NAME", common.get("model_name", "gemini-2.0-flash"))
+    ns_dict.setdefault("LOG_LEVEL", _coerce_log_level(common.get("log_level", "INFO")))
+
+    # Environment overrides
+    if env_model := os.getenv("MODEL_NAME", "").strip():
+        ns_dict["MODEL_NAME"] = env_model
+    if env_log := os.getenv("LOG_LEVEL", "").strip():
+        ns_dict["LOG_LEVEL"] = _coerce_log_level(env_log, ns_dict["LOG_LEVEL"])
+
+    # Normalize paths
+    for key in ["TRANSACTIONS_CSV", "PROFILES_OUT", "COLLABORATIONS_OUT"]:
+        p = ns_dict.get(key)
+        if p and not Path(p).is_absolute():
+            ns_dict[key] = str(Path(p))
+
+    return SimpleNamespace(**ns_dict)
+
+
 def get_api_key(service: str = "gemini") -> str:
     service_upper = service.upper()
     key = os.getenv(f"{service_upper}_API_KEY", "").strip()
@@ -134,16 +208,24 @@ def get_api_key(service: str = "gemini") -> str:
         key = os.getenv("GEMINI_API_KEY", "").strip()
     if not key:
         parser = load_config()
-        if parser.has_section("create_transactions_dataset"):
+        # Check specific service section first
+        if parser.has_section(service):
+            key = parser.get(service, "api_key", fallback="").strip()
+        # Then common
+        if not key and parser.has_section("common"):
+            key = parser.get("common", "api_key", fallback="").strip()
+        # Then legacy create_transactions_dataset
+        if not key and parser.has_section("create_transactions_dataset"):
             key = parser.get("create_transactions_dataset", "api_key", fallback="").strip()
     if not key:
         raise RuntimeError(
-            f"{service.capitalize()} API key not set. Provide via env {service_upper}_API_KEY or GEMINI_API_KEY, or config.ini [create_transactions_dataset] api_key=..."
+            f"{service.capitalize()} API key not set. Provide via env {service_upper}_API_KEY or GEMINI_API_KEY, or config.ini sections."  # noqa
         )
     return key
 
 __all__ = [
     "load_config",
     "load_transactions_config",
+    "load_politician_network_config",
     "get_api_key",
 ]

@@ -13,11 +13,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 import kagglehub
 from tqdm import tqdm
-from google import genai
-from google.genai import types
 
 from utils.load_config import load_transactions_config, get_api_key
-
 from utils.utils import (
     setup_logging,
     read_with_fallback,
@@ -28,6 +25,8 @@ from utils.utils import (
     load_or_init_df,
 )
 from prompts.transaction_analysis import generate_prompt, TransactionAnalysis
+from utils.gemini import call_gemini
+
 
 def download_dataset(dataset_id: str) -> Path:
     """Download (or reuse cached) Kaggle dataset and return its local path."""
@@ -47,62 +46,6 @@ def load_stock_prices(base_path: Path, prices_csv: str) -> pd.DataFrame:
     df = pd.read_csv(base_path / prices_csv)
     logging.info("Stock Prices Data Shape: %s", df.shape)
     return df
-
-
-def call_gemini(
-    prompt: str,
-    model_name: str,
-    max_retries: int = 3,
-    timeout: int = 90,
-) -> Optional[dict]:
-    """Call Gemini API with retries and parse JSON response."""
-    api_key = get_api_key("gemini")
-    client = genai.Client(api_key=api_key)
-
-    config = types.GenerateContentConfig(
-        temperature=0.2,
-        top_p=0.9,
-        max_output_tokens=512,
-        response_mime_type="application/json",
-        response_schema=TransactionAnalysis,
-    )
-
-    for attempt in range(1, max_retries + 1):
-        try:
-            response = client.models.generate_content(
-                model=f"{model_name}",
-                contents=prompt,
-                config=config,
-            )
-
-            if response and response.parsed:
-                # logging.info(f"Gemini parsed response: {response.parsed}")
-                analysis = response.parsed
-                return analysis.model_dump()
-            elif response and response.text:
-                # logging.warning(f"Gemini returned text instead of parsed object: {response.text}")
-                try:
-                    analysis = TransactionAnalysis.model_validate_json(response.text)
-                    return analysis.model_dump()
-                except Exception as e:
-                    logging.error(f"Failed to parse fallback response: {e}\nContent: {response.text}")
-                    return None
-            else:
-                logging.error("Empty response from Gemini.")
-                return {"error": "Empty response"}
-
-        except Exception as e:
-            wait = attempt * 2
-            logging.warning(
-                "Request exception %s; retry %d/%d in %ss",
-                e,
-                attempt,
-                max_retries,
-                wait,
-            )
-            time.sleep(wait)
-
-    return {"error": "Max retries exceeded"}
 
 
 def process_rows(
@@ -173,7 +116,12 @@ def process_rows(
                 rows.at[idx, response_col] = "DRY_RUN_RESPONSE"
                 processed += 1
             else:
-                future = executor.submit(call_gemini, prompt, model_name=model_name)
+                future = executor.submit(
+                    call_gemini,
+                    prompt,
+                    model_name=model_name,
+                    response_schema=TransactionAnalysis,
+                )
                 future_to_idx[future] = idx
                 api_calls += 1
 
