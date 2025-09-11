@@ -81,7 +81,7 @@ def process_rows(
         "direct_legislative_connection",
         "direct_legislative_connection_proof",
         "subcommittee_decision",
-        "subcommittee_decision_proof"
+        "subcommittee_decision_proof",
     ]
     for field in output_fields:
         if field not in rows.columns:
@@ -125,7 +125,11 @@ def process_rows(
                 future_to_idx[future] = idx
                 api_calls += 1
 
-        for future in tqdm(as_completed(future_to_idx), total=len(future_to_idx), desc="Processing transactions"):
+        for future in tqdm(
+            as_completed(future_to_idx),
+            total=len(future_to_idx),
+            desc="Processing transactions",
+        ):
             idx = future_to_idx[future]
             try:
                 response_obj = future.result()
@@ -172,7 +176,9 @@ def main():
     try:
         Path(cfg.OUTPUT_CSV).parent.mkdir(parents=True, exist_ok=True)
     except Exception as e:
-        logging.warning("Could not create output directory for %s: %s", cfg.OUTPUT_CSV, e)
+        logging.warning(
+            "Could not create output directory for %s: %s", cfg.OUTPUT_CSV, e
+        )
 
     base_path = download_dataset(cfg.DATASET_ID)
     congress_df = load_congress_data(base_path, cfg.CONGRESS_CSV_NAME)
