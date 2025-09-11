@@ -1,18 +1,12 @@
-# 1. Built-in modules
 import os
 from datetime import timedelta
 from itertools import combinations
 from datetime import timedelta
 
-# 2. Third-party packages
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-
-# 3. Internal company packages (none)
-
-# 4. Current project modules (none)
 
 def build_suspicious_transactions_network(
         csv_path: str,
