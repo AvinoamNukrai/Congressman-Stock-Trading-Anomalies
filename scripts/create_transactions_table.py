@@ -16,13 +16,13 @@ from tqdm import tqdm
 
 from utils.load_config import load_transactions_config, get_api_key
 from utils.utils import (
-    setup_logging,
-    read_with_fallback,
-    add_traded_datetime,
-    filter_period,
-    filter_purchases,
-    limit_transactions,
-    load_or_init_df,
+        setup_logging,
+        read_with_fallback,
+        add_traded_datetime,
+        filter_period,
+        filter_purchases,
+        limit_transactions,
+        load_or_init_df,
 )
 from prompts.transaction_analysis import generate_prompt, TransactionAnalysis
 from utils.gemini import call_gemini
@@ -49,17 +49,17 @@ def load_stock_prices(base_path: Path, prices_csv: str) -> pd.DataFrame:
 
 
 def process_rows(
-    df_analysis: pd.DataFrame,
-    *,
-    prompt_col: str,
-    response_col: str,
-    output_csv: str,
-    model_name: str,
-    max_rows: Optional[int],
-    dry_run: bool,
-    overwrite_existing: bool,
-    intermediate_every: int,
-    max_workers: int,
+        df_analysis: pd.DataFrame,
+        *,
+        prompt_col: str,
+        response_col: str,
+        output_csv: str,
+        model_name: str,
+        max_rows: Optional[int],
+        dry_run: bool,
+        overwrite_existing: bool,
+        intermediate_every: int,
+        max_workers: int,
 ) -> pd.DataFrame:
     """Iterate transactions, build prompts, call API (or dry run), save intermittently."""
     rows = df_analysis.copy()
@@ -89,9 +89,7 @@ def process_rows(
 
     tasks_to_process = []
     for idx, row in rows.iterrows():
-        already = (
-            pd.notna(row.get(response_col)) and str(row.get(response_col)).strip() != ""
-        )
+        already = (pd.notna(row.get(response_col)) and str(row.get(response_col)).strip() != "")
         if already and not overwrite_existing:
             continue
         tasks_to_process.append((idx, row))
