@@ -1,5 +1,8 @@
 /config.ini
 
+# Github
+.github/
+
 # VSCode
 .vscode/*
 !.vscode/settings.json
