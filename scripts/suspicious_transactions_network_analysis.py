@@ -3,7 +3,7 @@ import community as community_louvain
 from collections import Counter
 from itertools import combinations
 
-def analyze_network(graph_path="outputs/suspicious_transactions_network.gexf"):
+def analyze_network(graph_path="../outputs/suspicious_transactions_network.gexf"):
     """
     Analyzes a politician transaction network by creating a politician-only projected graph
     to identify communities, influential politicians, and suspicious trading patterns.
@@ -118,7 +118,7 @@ def analyze_network(graph_path="outputs/suspicious_transactions_network.gexf"):
                     print(f"    - {pair[0]}-{pair[1]}: {count} times")
 
     # --- 5. Save the updated graph ---
-    output_path = "outputs/politician_network_analyzed.gexf"
+    output_path = "../outputs/politician_network_analyzed.gexf"
     # Make sure all attributes are strings for GEXF compatibility
     for node, data in G.nodes(data=True):
         for key, value in data.items():
