@@ -129,8 +129,10 @@ def _plot_and_save_graph(G: nx.Graph, png_output_path: str) -> None:
 
     legend_elements = [
         plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='skyblue', markersize=20, label='Politicians'),
-        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=15, label='Suspicious transactions'),
-        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='purple', markersize=15, label='Other connected transactions'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=15,
+                   label='Suspicious transactions'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='purple', markersize=15,
+                   label='Other connected transactions'),
     ]
     plt.legend(handles=legend_elements, loc='upper right', fontsize=18)
 
@@ -138,12 +140,20 @@ def _plot_and_save_graph(G: nx.Graph, png_output_path: str) -> None:
     plt.savefig(png_output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
+
 def main():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.dirname(script_dir)
-    csv_path = os.path.join(project_root, "outputs", "transactions_with_analysis.csv")
-    gexf_output_path = os.path.join(project_root, "outputs", "suspicious_transactions_network.gexf")
-    png_output_path = os.path.join(project_root, "outputs", "suspicious_transactions_network.png")
+    # Note: os.path.abspath(__file__) might not work in all environments (like Jupyter)
+    # Using a simpler relative path structure.
+    # Assumes the script is run from the `suspicious_transactions_network` directory.
+    project_root = ".."
+    csv_path = os.path.join(project_root, "suspicious_transactions_network", "transactions_with_analysis.csv")
+
+    # --- FIX IS HERE: Create the output directory before using it ---
+    output_dir = '.'
+    os.makedirs(output_dir, exist_ok=True)
+
+    gexf_output_path = os.path.join(output_dir, "suspicious_transactions_network.gexf")
+    png_output_path = os.path.join(output_dir, "suspicious_transactions_network.png")
 
     if not os.path.exists(csv_path):
         print(f"Error: The file {csv_path} was not found.")
