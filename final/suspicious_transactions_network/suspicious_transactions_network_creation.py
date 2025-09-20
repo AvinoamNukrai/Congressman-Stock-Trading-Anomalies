@@ -10,16 +10,7 @@ def build_suspicious_transactions_network(
         gexf_output_path: str,
         png_output_path: str
 ) -> nx.Graph:
-    """Builds and saves a network graph of suspicious transactions.
-
-    Args:
-        csv_path: Path to the transactions CSV file.
-        gexf_output_path: Path to save the GEXF graph file.
-        png_output_path: Path to save the graph plot PNG.
-
-    Returns:
-        The constructed NetworkX graph.
-    """
+    """Builds and saves a network graph of suspicious transactions."""
     df = pd.read_csv(csv_path)
     df["Traded_Date"] = pd.to_datetime(df["Traded_Date"])
     G = nx.Graph()
@@ -57,10 +48,7 @@ def build_suspicious_transactions_network(
 
 
 def _add_transaction_edges(G: nx.Graph) -> None:
-    """Adds edges between transaction nodes with the same ticker within 10 days.
-
-    Only connects transactions if at least one of them is suspicious.
-    """
+    """Adds edges between transaction nodes with the same ticker within 10 days."""
     transaction_nodes = [
         node for node, attrs in G.nodes(data=True) if attrs.get("type") == "transaction"
     ]
@@ -80,7 +68,7 @@ def _add_transaction_edges(G: nx.Graph) -> None:
 
 
 def _plot_and_save_graph(G: nx.Graph, png_output_path: str) -> None:
-    """Plots the network graph and saves it as a PNG file with more spacing."""
+    """Plots the network graph and saves it as a PNG file with enhanced text formatting."""
     politician_nodes = {n for n, d in G.nodes(data=True) if d.get("type") == "politician"}
     connected_nodes = set()
 
@@ -122,9 +110,12 @@ def _plot_and_save_graph(G: nx.Graph, png_output_path: str) -> None:
     nx.draw_networkx_edges(G_filtered, pos, edge_color="#444444", alpha=0.5, width=1.2)
 
     nx.draw_networkx_nodes(G_filtered, pos, node_color=node_colors, node_size=node_sizes, alpha=0.9)
+
+    # --- TEXT BIGGER & BOLDER: NAMES ---
+    # Increased font size for better visibility
     nx.draw_networkx_labels(
-        G_filtered, pos, labels=labels, font_size=20, font_weight="bold", font_color="black",
-        bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=1.0)
+        G_filtered, pos, labels=labels, font_size=32, font_weight="bold", font_color="black",
+        bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=2.0)
     )
 
     legend_elements = [
@@ -134,22 +125,25 @@ def _plot_and_save_graph(G: nx.Graph, png_output_path: str) -> None:
         plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='purple', markersize=15,
                    label='Other connected transactions'),
     ]
-    plt.legend(handles=legend_elements, loc='upper right', fontsize=18)
+    # --- TEXT BIGGER & BOLDER: LEGEND ---
+    # Increased font sizes and made text bold
+    legend = plt.legend(handles=legend_elements, loc='upper right', fontsize=28, title="Legend")
+    plt.setp(legend.get_texts(), fontweight='bold')
+    plt.setp(legend.get_title(), fontsize=30, fontweight='bold')
 
-    plt.title("Suspicious Politician Transactions Network", size=32)
+    plt.title("Suspicious Politician Transactions Network", size=40, fontweight='bold')
+
     plt.savefig(png_output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
 
 def main():
-    # Note: os.path.abspath(__file__) might not work in all environments (like Jupyter)
     # Using a simpler relative path structure.
-    # Assumes the script is run from the `suspicious_transactions_network` directory.
-    project_root = ".."
-    csv_path = os.path.join(project_root, "suspicious_transactions_network", "transactions_with_analysis.csv")
+    # Assumes the script is run from a directory containing the input CSV.
+    csv_path = "transactions_with_analysis.csv"
 
-    # --- FIX IS HERE: Create the output directory before using it ---
-    output_dir = '.'
+    # Define the output directory and create it if it doesn't exist
+    output_dir = "."
     os.makedirs(output_dir, exist_ok=True)
 
     gexf_output_path = os.path.join(output_dir, "suspicious_transactions_network.gexf")
