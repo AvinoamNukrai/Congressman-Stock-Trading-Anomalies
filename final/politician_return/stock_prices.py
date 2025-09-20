@@ -3,7 +3,7 @@ import yfinance as yf
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-OUTPUTS_DIR = "../stocks prices and target politicians/archive"
+OUTPUTS_DIR = "."
 
 def fetch_prices(ticker, start, end):
     """Download monthly prices for a single ticker."""
