@@ -1,0 +1,1757 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-09-19">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Adam Kinzinger" label="Adam Kinzinger">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="BA" label="BA">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="UNH" label="UNH">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="GOOG" label="GOOG">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="LMT" label="LMT">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="NOC" label="NOC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="DIS" label="DIS">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="UPS" label="UPS">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="XOM" label="XOM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="CVS" label="CVS">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Austin Scott" label="Austin Scott">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="AFL" label="AFL">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="HD" label="HD">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="JPM" label="JPM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Alan S. Lowenthal" label="Alan S. Lowenthal">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="RTX" label="RTX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="GOOGL" label="GOOGL">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="AMZN" label="AMZN">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="FDX" label="FDX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Anthony E. Gonzalez" label="Anthony E. Gonzalez">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="MSFT" label="MSFT">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="NFLX" label="NFLX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Bob Gibbs" label="Bob Gibbs">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="BAC" label="BAC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="PFE" label="PFE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Brian Higgins" label="Brian Higgins">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="AEP" label="AEP">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="INTC" label="INTC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="PG" label="PG">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Brian Mast" label="Brian Mast">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Capito, Shelley Moore" label="Capito, Shelley Moore">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="MRK" label="MRK">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="WMT" label="WMT">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Carol Devine Miller" label="Carol Devine Miller">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Carper, Thomas R." label="Carper, Thomas R.">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="AAPL" label="AAPL">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="V" label="V">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Cassidy, Bill" label="Cassidy, Bill">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="CHEVRON" label="CHEVRON">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="EXXON" label="EXXON">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Cheri Bustos" label="Cheri Bustos">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="T" label="T">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Christopher L. Jacobs" label="Christopher L. Jacobs">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="ING" label="ING">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="FB" label="FB">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="BRK.B" label="BRK.B">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Cindy Axne" label="Cindy Axne">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="WFC" label="WFC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="C" label="C">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Daniel Meuser" label="Daniel Meuser">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Daniel Crenshaw" label="Daniel Crenshaw">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="GD" label="GD">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="CACI" label="CACI">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="TXT" label="TXT">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="HON" label="HON">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="David B. Mckinley" label="David B. Mckinley">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="CNP" label="CNP">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="SO" label="SO">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="CMS" label="CMS">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="D" label="D">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="DUK" label="DUK">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="EXC" label="EXC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="FE" label="FE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="NEE" label="NEE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="NRG" label="NRG">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="David Cheston Rouzer" label="David Cheston Rouzer">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="NUE" label="NUE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="CAT" label="CAT">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="UNP" label="UNP">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="MMC" label="MMC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="David E. Price" label="David E. Price">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="David P. Joyce" label="David P. Joyce">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Dean Phillips" label="Dean Phillips">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="David Trone" label="David Trone">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="CMCSA" label="CMCSA">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="ANTM" label="ANTM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="CI" label="CI">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Debbie Dingell" label="Debbie Dingell">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="F" label="F">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Debbie Wasserman Schultz" label="Debbie Wasserman Schultz">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Donald Sternoff  Beyer Jr" label="Donald Sternoff  Beyer Jr">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Donald Sternoff Beyer Jr" label="Donald Sternoff Beyer Jr">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Earl Blumenauer" label="Earl Blumenauer">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="NIKE" label="NIKE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="BOEING" label="BOEING">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="WM" label="WM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Dwight Evans" label="Dwight Evans">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="PNC" label="PNC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="COMCAST" label="COMCAST">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="WELLS FARGO" label="WELLS FARGO">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="PECO" label="PECO">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Ed Perlmutter" label="Ed Perlmutter">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Greg Gianforte" label="Greg Gianforte">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Garret Graves" label="Garret Graves">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="CHRW" label="CHRW">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Gilbert Cisneros" label="Gilbert Cisneros">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Harley E. Rouda Jr." label="Harley E. Rouda Jr.">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="James E. Banks" label="James E. Banks">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Hoeven, John" label="Hoeven, John">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="CHS" label="CHS">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="CVX" label="CVX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="COP" label="COP">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="SLB" label="SLB">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="HAL" label="HAL">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="WMB" label="WMB">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="KMI" label="KMI">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="MPC" label="MPC">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="PSX" label="PSX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="James E Hon Banks" label="James E Hon Banks">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="BAE" label="BAE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="JNJ" label="JNJ">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="James R. Langevin" label="James R. Langevin">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="AET" label="AET">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="BAH" label="BAH">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="LHX" label="LHX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="John A. Yarmuth" label="John A. Yarmuth">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="HUM" label="HUM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Joe Courtney" label="Joe Courtney">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="James French Hill" label="James French Hill">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="USB" label="USB">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="John Curtis" label="John Curtis">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="ATVI" label="ATVI">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="AMAZON" label="AMAZON">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="GOLDMAN SACHS" label="GOLDMAN SACHS">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="RAYTHEON" label="RAYTHEON">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="DOMINION ENERGY" label="DOMINION ENERGY">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="John Rutherford" label="John Rutherford">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Josh Gottheimer" label="Josh Gottheimer">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Justin Amash" label="Justin Amash">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Katherine M. Clark" label="Katherine M. Clark">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="K. Michael Conaway" label="K. Michael Conaway">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="ADM" label="ADM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="DE" label="DE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Kathy Castor" label="Kathy Castor">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Kevin Hern" label="Kevin Hern">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="King, Angus" label="King, Angus">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Lloyd Doggett" label="Lloyd Doggett">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Loeffler, Kelly" label="Loeffler, Kelly">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="ICE" label="ICE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Lois Frankel" label="Lois Frankel">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Mark Green" label="Mark Green">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Mark Dr Green" label="Mark Dr Green">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Michael Garcia" label="Michael Garcia">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="McConnell, A. Mitchell Jr." label="McConnell, A. Mitchell Jr.">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Mikie Sherrill" label="Mikie Sherrill">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Michael K. Simpson" label="Michael K. Simpson">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="UTX" label="UTX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="MMM" label="MMM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Mo Brooks" label="Mo Brooks">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Michael Patrick Guest" label="Michael Patrick Guest">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="RAY" label="RAY">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Nancy Pelosi" label="Nancy Pelosi">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Moran, Jerry" label="Moran, Jerry">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="KO" label="KO">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Peter Welch" label="Peter Welch">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Perdue, David" label="Perdue, David">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="HOME" label="HOME">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Peters, Gary" label="Peters, Gary">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Raúl M. Grijalva" label="Raúl M. Grijalva">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Richard W. Allen" label="Richard W. Allen">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Rick Larsen" label="Rick Larsen">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Robert J. Wittman" label="Robert J. Wittman">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Robert E. Latta" label="Robert E. Latta">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="VZ" label="VZ">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Roberts, Pat" label="Roberts, Pat">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="AMGN" label="AMGN">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Roger W. Marshall" label="Roger W. Marshall">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Sullivan, Dan" label="Sullivan, Dan">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Susan A. Davis" label="Susan A. Davis">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Susie Lee" label="Susie Lee">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="LVS" label="LVS">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="WYNN" label="WYNN">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="MGM" label="MGM">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Susan W. Brooks" label="Susan W. Brooks">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="BAX" label="BAX">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="LLY" label="LLY">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="MCK" label="MCK">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Thomas Suozzi" label="Thomas Suozzi">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Suzan K. Delbene" label="Suzan K. Delbene">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Tom Rice" label="Tom Rice">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="NVR" label="NVR">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Tom Malinowski" label="Tom Malinowski">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Toomey, Pat" label="Toomey, Pat">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Toomey, Patrick" label="Toomey, Patrick">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Virginia Foxx" label="Virginia Foxx">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="W. Greg Steube" label="W. Greg Steube">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="NKE" label="NKE">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Warren Davidson" label="Warren Davidson">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="William R. Timmons Iv" label="William R. Timmons Iv">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="LOCKHEED MARTIN" label="LOCKHEED MARTIN">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Wicker, Roger" label="Wicker, Roger">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Whitehouse, Sheldon" label="Whitehouse, Sheldon">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="Wyden, Ron" label="Wyden, Ron">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+      <node id="NVDA" label="NVDA">
+        <attvalues>
+          <attvalue for="0" value="company" />
+        </attvalues>
+      </node>
+      <node id="Zoe Lofgren" label="Zoe Lofgren">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Adam Kinzinger" target="BA" id="0" weight="1" />
+      <edge source="Adam Kinzinger" target="UNH" id="1" weight="1" />
+      <edge source="Adam Kinzinger" target="GOOG" id="2" weight="1" />
+      <edge source="Adam Kinzinger" target="LMT" id="3" weight="1" />
+      <edge source="Adam Kinzinger" target="NOC" id="4" weight="1" />
+      <edge source="Adam Kinzinger" target="DIS" id="5" weight="1" />
+      <edge source="Adam Kinzinger" target="UPS" id="6" weight="1" />
+      <edge source="Adam Kinzinger" target="XOM" id="7" weight="1" />
+      <edge source="Adam Kinzinger" target="CVS" id="8" weight="1" />
+      <edge source="BA" target="Austin Scott" id="9" weight="1" />
+      <edge source="BA" target="Alan S. Lowenthal" id="10" weight="1" />
+      <edge source="BA" target="Anthony E. Gonzalez" id="11" weight="1" />
+      <edge source="BA" target="Bob Gibbs" id="12" weight="1" />
+      <edge source="BA" target="Brian Higgins" id="13" weight="1" />
+      <edge source="BA" target="Brian Mast" id="14" weight="1" />
+      <edge source="BA" target="Capito, Shelley Moore" id="15" weight="1" />
+      <edge source="BA" target="Carol Devine Miller" id="16" weight="1" />
+      <edge source="BA" target="Cassidy, Bill" id="17" weight="1" />
+      <edge source="BA" target="Cheri Bustos" id="18" weight="1" />
+      <edge source="BA" target="Daniel Crenshaw" id="19" weight="1" />
+      <edge source="BA" target="David Cheston Rouzer" id="20" weight="1" />
+      <edge source="BA" target="David P. Joyce" id="21" weight="1" />
+      <edge source="BA" target="David Trone" id="22" weight="1" />
+      <edge source="BA" target="Debbie Dingell" id="23" weight="1" />
+      <edge source="BA" target="Debbie Wasserman Schultz" id="24" weight="1" />
+      <edge source="BA" target="Donald Sternoff  Beyer Jr" id="25" weight="1" />
+      <edge source="BA" target="Donald Sternoff Beyer Jr" id="26" weight="1" />
+      <edge source="BA" target="Earl Blumenauer" id="27" weight="1" />
+      <edge source="BA" target="Garret Graves" id="28" weight="1" />
+      <edge source="BA" target="Gilbert Cisneros" id="29" weight="1" />
+      <edge source="BA" target="Harley E. Rouda Jr." id="30" weight="1" />
+      <edge source="BA" target="Joe Courtney" id="31" weight="1" />
+      <edge source="BA" target="John Rutherford" id="32" weight="1" />
+      <edge source="BA" target="Katherine M. Clark" id="33" weight="1" />
+      <edge source="BA" target="K. Michael Conaway" id="34" weight="1" />
+      <edge source="BA" target="Kathy Castor" id="35" weight="1" />
+      <edge source="BA" target="Kevin Hern" id="36" weight="1" />
+      <edge source="BA" target="King, Angus" id="37" weight="1" />
+      <edge source="BA" target="Lois Frankel" id="38" weight="1" />
+      <edge source="BA" target="Mark Green" id="39" weight="1" />
+      <edge source="BA" target="Mark Dr Green" id="40" weight="1" />
+      <edge source="BA" target="Mikie Sherrill" id="41" weight="1" />
+      <edge source="BA" target="Michael K. Simpson" id="42" weight="1" />
+      <edge source="BA" target="Mo Brooks" id="43" weight="1" />
+      <edge source="BA" target="Michael Patrick Guest" id="44" weight="1" />
+      <edge source="BA" target="Moran, Jerry" id="45" weight="1" />
+      <edge source="BA" target="Peters, Gary" id="46" weight="1" />
+      <edge source="BA" target="Richard W. Allen" id="47" weight="1" />
+      <edge source="BA" target="Rick Larsen" id="48" weight="1" />
+      <edge source="BA" target="Robert J. Wittman" id="49" weight="1" />
+      <edge source="BA" target="Roberts, Pat" id="50" weight="1" />
+      <edge source="BA" target="Roger W. Marshall" id="51" weight="1" />
+      <edge source="BA" target="Sullivan, Dan" id="52" weight="1" />
+      <edge source="BA" target="Susan A. Davis" id="53" weight="1" />
+      <edge source="BA" target="Suzan K. Delbene" id="54" weight="1" />
+      <edge source="BA" target="Tom Rice" id="55" weight="1" />
+      <edge source="BA" target="W. Greg Steube" id="56" weight="1" />
+      <edge source="BA" target="Wicker, Roger" id="57" weight="1" />
+      <edge source="BA" target="Zoe Lofgren" id="58" weight="1" />
+      <edge source="UNH" target="Austin Scott" id="59" weight="1" />
+      <edge source="UNH" target="Alan S. Lowenthal" id="60" weight="1" />
+      <edge source="UNH" target="Anthony E. Gonzalez" id="61" weight="1" />
+      <edge source="UNH" target="Bob Gibbs" id="62" weight="1" />
+      <edge source="UNH" target="Brian Higgins" id="63" weight="1" />
+      <edge source="UNH" target="Brian Mast" id="64" weight="1" />
+      <edge source="UNH" target="Capito, Shelley Moore" id="65" weight="1" />
+      <edge source="UNH" target="Carol Devine Miller" id="66" weight="1" />
+      <edge source="UNH" target="Carper, Thomas R." id="67" weight="1" />
+      <edge source="UNH" target="Cassidy, Bill" id="68" weight="1" />
+      <edge source="UNH" target="Cheri Bustos" id="69" weight="1" />
+      <edge source="UNH" target="Christopher L. Jacobs" id="70" weight="1" />
+      <edge source="UNH" target="Cindy Axne" id="71" weight="1" />
+      <edge source="UNH" target="Daniel Meuser" id="72" weight="1" />
+      <edge source="UNH" target="David E. Price" id="73" weight="1" />
+      <edge source="UNH" target="David P. Joyce" id="74" weight="1" />
+      <edge source="UNH" target="Dean Phillips" id="75" weight="1" />
+      <edge source="UNH" target="David Trone" id="76" weight="1" />
+      <edge source="UNH" target="Debbie Wasserman Schultz" id="77" weight="1" />
+      <edge source="UNH" target="Donald Sternoff  Beyer Jr" id="78" weight="1" />
+      <edge source="UNH" target="Donald Sternoff Beyer Jr" id="79" weight="1" />
+      <edge source="UNH" target="Earl Blumenauer" id="80" weight="1" />
+      <edge source="UNH" target="Gilbert Cisneros" id="81" weight="1" />
+      <edge source="UNH" target="Harley E. Rouda Jr." id="82" weight="1" />
+      <edge source="UNH" target="James E Hon Banks" id="83" weight="1" />
+      <edge source="UNH" target="James R. Langevin" id="84" weight="1" />
+      <edge source="UNH" target="John A. Yarmuth" id="85" weight="1" />
+      <edge source="UNH" target="Joe Courtney" id="86" weight="1" />
+      <edge source="UNH" target="John Rutherford" id="87" weight="1" />
+      <edge source="UNH" target="Josh Gottheimer" id="88" weight="1" />
+      <edge source="UNH" target="Katherine M. Clark" id="89" weight="1" />
+      <edge source="UNH" target="Kathy Castor" id="90" weight="1" />
+      <edge source="UNH" target="Kevin Hern" id="91" weight="1" />
+      <edge source="UNH" target="King, Angus" id="92" weight="1" />
+      <edge source="UNH" target="Lloyd Doggett" id="93" weight="1" />
+      <edge source="UNH" target="Lois Frankel" id="94" weight="1" />
+      <edge source="UNH" target="Mark Green" id="95" weight="1" />
+      <edge source="UNH" target="Mark Dr Green" id="96" weight="1" />
+      <edge source="UNH" target="McConnell, A. Mitchell Jr." id="97" weight="1" />
+      <edge source="UNH" target="Mikie Sherrill" id="98" weight="1" />
+      <edge source="UNH" target="Michael K. Simpson" id="99" weight="1" />
+      <edge source="UNH" target="Michael Patrick Guest" id="100" weight="1" />
+      <edge source="UNH" target="Nancy Pelosi" id="101" weight="1" />
+      <edge source="UNH" target="Peter Welch" id="102" weight="1" />
+      <edge source="UNH" target="Peters, Gary" id="103" weight="1" />
+      <edge source="UNH" target="Raúl M. Grijalva" id="104" weight="1" />
+      <edge source="UNH" target="Richard W. Allen" id="105" weight="1" />
+      <edge source="UNH" target="Robert E. Latta" id="106" weight="1" />
+      <edge source="UNH" target="Sullivan, Dan" id="107" weight="1" />
+      <edge source="UNH" target="Susan A. Davis" id="108" weight="1" />
+      <edge source="UNH" target="Susan W. Brooks" id="109" weight="1" />
+      <edge source="UNH" target="Thomas Suozzi" id="110" weight="1" />
+      <edge source="UNH" target="Suzan K. Delbene" id="111" weight="1" />
+      <edge source="UNH" target="Toomey, Pat" id="112" weight="1" />
+      <edge source="UNH" target="Toomey, Patrick" id="113" weight="1" />
+      <edge source="UNH" target="Virginia Foxx" id="114" weight="1" />
+      <edge source="UNH" target="W. Greg Steube" id="115" weight="1" />
+      <edge source="UNH" target="Warren Davidson" id="116" weight="1" />
+      <edge source="UNH" target="Wicker, Roger" id="117" weight="1" />
+      <edge source="UNH" target="Whitehouse, Sheldon" id="118" weight="1" />
+      <edge source="UNH" target="Zoe Lofgren" id="119" weight="1" />
+      <edge source="GOOG" target="Alan S. Lowenthal" id="120" weight="1" />
+      <edge source="GOOG" target="Anthony E. Gonzalez" id="121" weight="1" />
+      <edge source="GOOG" target="Bob Gibbs" id="122" weight="1" />
+      <edge source="GOOG" target="Brian Higgins" id="123" weight="1" />
+      <edge source="GOOG" target="Brian Mast" id="124" weight="1" />
+      <edge source="GOOG" target="Capito, Shelley Moore" id="125" weight="1" />
+      <edge source="GOOG" target="Carol Devine Miller" id="126" weight="1" />
+      <edge source="GOOG" target="Carper, Thomas R." id="127" weight="1" />
+      <edge source="GOOG" target="Cassidy, Bill" id="128" weight="1" />
+      <edge source="GOOG" target="Cheri Bustos" id="129" weight="1" />
+      <edge source="GOOG" target="Christopher L. Jacobs" id="130" weight="1" />
+      <edge source="GOOG" target="Cindy Axne" id="131" weight="1" />
+      <edge source="GOOG" target="Daniel Meuser" id="132" weight="1" />
+      <edge source="GOOG" target="Daniel Crenshaw" id="133" weight="1" />
+      <edge source="GOOG" target="David Cheston Rouzer" id="134" weight="1" />
+      <edge source="GOOG" target="David E. Price" id="135" weight="1" />
+      <edge source="GOOG" target="David P. Joyce" id="136" weight="1" />
+      <edge source="GOOG" target="Dean Phillips" id="137" weight="1" />
+      <edge source="GOOG" target="David Trone" id="138" weight="1" />
+      <edge source="GOOG" target="Debbie Dingell" id="139" weight="1" />
+      <edge source="GOOG" target="Debbie Wasserman Schultz" id="140" weight="1" />
+      <edge source="GOOG" target="Donald Sternoff  Beyer Jr" id="141" weight="1" />
+      <edge source="GOOG" target="Donald Sternoff Beyer Jr" id="142" weight="1" />
+      <edge source="GOOG" target="Earl Blumenauer" id="143" weight="1" />
+      <edge source="GOOG" target="Ed Perlmutter" id="144" weight="1" />
+      <edge source="GOOG" target="Garret Graves" id="145" weight="1" />
+      <edge source="GOOG" target="Harley E. Rouda Jr." id="146" weight="1" />
+      <edge source="GOOG" target="James French Hill" id="147" weight="1" />
+      <edge source="GOOG" target="John Rutherford" id="148" weight="1" />
+      <edge source="GOOG" target="Josh Gottheimer" id="149" weight="1" />
+      <edge source="GOOG" target="Justin Amash" id="150" weight="1" />
+      <edge source="GOOG" target="Katherine M. Clark" id="151" weight="1" />
+      <edge source="GOOG" target="Kathy Castor" id="152" weight="1" />
+      <edge source="GOOG" target="Kevin Hern" id="153" weight="1" />
+      <edge source="GOOG" target="Lloyd Doggett" id="154" weight="1" />
+      <edge source="GOOG" target="Loeffler, Kelly" id="155" weight="1" />
+      <edge source="GOOG" target="Lois Frankel" id="156" weight="1" />
+      <edge source="GOOG" target="Mark Green" id="157" weight="1" />
+      <edge source="GOOG" target="Mark Dr Green" id="158" weight="1" />
+      <edge source="GOOG" target="McConnell, A. Mitchell Jr." id="159" weight="1" />
+      <edge source="GOOG" target="Michael K. Simpson" id="160" weight="1" />
+      <edge source="GOOG" target="Michael Patrick Guest" id="161" weight="1" />
+      <edge source="GOOG" target="Nancy Pelosi" id="162" weight="1" />
+      <edge source="GOOG" target="Moran, Jerry" id="163" weight="1" />
+      <edge source="GOOG" target="Peter Welch" id="164" weight="1" />
+      <edge source="GOOG" target="Perdue, David" id="165" weight="1" />
+      <edge source="GOOG" target="Peters, Gary" id="166" weight="1" />
+      <edge source="GOOG" target="Raúl M. Grijalva" id="167" weight="1" />
+      <edge source="GOOG" target="Richard W. Allen" id="168" weight="1" />
+      <edge source="GOOG" target="Rick Larsen" id="169" weight="1" />
+      <edge source="GOOG" target="Robert E. Latta" id="170" weight="1" />
+      <edge source="GOOG" target="Roberts, Pat" id="171" weight="1" />
+      <edge source="GOOG" target="Roger W. Marshall" id="172" weight="1" />
+      <edge source="GOOG" target="Susan A. Davis" id="173" weight="1" />
+      <edge source="GOOG" target="Thomas Suozzi" id="174" weight="1" />
+      <edge source="GOOG" target="Suzan K. Delbene" id="175" weight="1" />
+      <edge source="GOOG" target="Tom Rice" id="176" weight="1" />
+      <edge source="GOOG" target="Tom Malinowski" id="177" weight="1" />
+      <edge source="GOOG" target="Toomey, Pat" id="178" weight="1" />
+      <edge source="GOOG" target="Toomey, Patrick" id="179" weight="1" />
+      <edge source="GOOG" target="Virginia Foxx" id="180" weight="1" />
+      <edge source="GOOG" target="W. Greg Steube" id="181" weight="1" />
+      <edge source="GOOG" target="Warren Davidson" id="182" weight="1" />
+      <edge source="GOOG" target="Wicker, Roger" id="183" weight="1" />
+      <edge source="GOOG" target="Whitehouse, Sheldon" id="184" weight="1" />
+      <edge source="GOOG" target="Wyden, Ron" id="185" weight="1" />
+      <edge source="GOOG" target="Zoe Lofgren" id="186" weight="1" />
+      <edge source="LMT" target="Alan S. Lowenthal" id="187" weight="1" />
+      <edge source="LMT" target="Brian Mast" id="188" weight="1" />
+      <edge source="LMT" target="Carol Devine Miller" id="189" weight="1" />
+      <edge source="LMT" target="Daniel Crenshaw" id="190" weight="1" />
+      <edge source="LMT" target="Debbie Wasserman Schultz" id="191" weight="1" />
+      <edge source="LMT" target="Donald Sternoff  Beyer Jr" id="192" weight="1" />
+      <edge source="LMT" target="Donald Sternoff Beyer Jr" id="193" weight="1" />
+      <edge source="LMT" target="Garret Graves" id="194" weight="1" />
+      <edge source="LMT" target="Gilbert Cisneros" id="195" weight="1" />
+      <edge source="LMT" target="James E Hon Banks" id="196" weight="1" />
+      <edge source="LMT" target="James R. Langevin" id="197" weight="1" />
+      <edge source="LMT" target="Joe Courtney" id="198" weight="1" />
+      <edge source="LMT" target="John Rutherford" id="199" weight="1" />
+      <edge source="LMT" target="Katherine M. Clark" id="200" weight="1" />
+      <edge source="LMT" target="K. Michael Conaway" id="201" weight="1" />
+      <edge source="LMT" target="Kathy Castor" id="202" weight="1" />
+      <edge source="LMT" target="Kevin Hern" id="203" weight="1" />
+      <edge source="LMT" target="King, Angus" id="204" weight="1" />
+      <edge source="LMT" target="Lois Frankel" id="205" weight="1" />
+      <edge source="LMT" target="Mark Green" id="206" weight="1" />
+      <edge source="LMT" target="Mark Dr Green" id="207" weight="1" />
+      <edge source="LMT" target="Mikie Sherrill" id="208" weight="1" />
+      <edge source="LMT" target="Mo Brooks" id="209" weight="1" />
+      <edge source="LMT" target="Michael Patrick Guest" id="210" weight="1" />
+      <edge source="LMT" target="Moran, Jerry" id="211" weight="1" />
+      <edge source="LMT" target="Peters, Gary" id="212" weight="1" />
+      <edge source="LMT" target="Richard W. Allen" id="213" weight="1" />
+      <edge source="LMT" target="Rick Larsen" id="214" weight="1" />
+      <edge source="LMT" target="Robert J. Wittman" id="215" weight="1" />
+      <edge source="LMT" target="Sullivan, Dan" id="216" weight="1" />
+      <edge source="LMT" target="Susan A. Davis" id="217" weight="1" />
+      <edge source="LMT" target="Tom Rice" id="218" weight="1" />
+      <edge source="LMT" target="W. Greg Steube" id="219" weight="1" />
+      <edge source="LMT" target="Wicker, Roger" id="220" weight="1" />
+      <edge source="LMT" target="Zoe Lofgren" id="221" weight="1" />
+      <edge source="NOC" target="Alan S. Lowenthal" id="222" weight="1" />
+      <edge source="NOC" target="Capito, Shelley Moore" id="223" weight="1" />
+      <edge source="NOC" target="Carol Devine Miller" id="224" weight="1" />
+      <edge source="NOC" target="Daniel Crenshaw" id="225" weight="1" />
+      <edge source="NOC" target="Donald Sternoff  Beyer Jr" id="226" weight="1" />
+      <edge source="NOC" target="Donald Sternoff Beyer Jr" id="227" weight="1" />
+      <edge source="NOC" target="Garret Graves" id="228" weight="1" />
+      <edge source="NOC" target="Gilbert Cisneros" id="229" weight="1" />
+      <edge source="NOC" target="James E Hon Banks" id="230" weight="1" />
+      <edge source="NOC" target="James R. Langevin" id="231" weight="1" />
+      <edge source="NOC" target="John Rutherford" id="232" weight="1" />
+      <edge source="NOC" target="K. Michael Conaway" id="233" weight="1" />
+      <edge source="NOC" target="King, Angus" id="234" weight="1" />
+      <edge source="NOC" target="Lois Frankel" id="235" weight="1" />
+      <edge source="NOC" target="Mark Dr Green" id="236" weight="1" />
+      <edge source="NOC" target="Mikie Sherrill" id="237" weight="1" />
+      <edge source="NOC" target="Mo Brooks" id="238" weight="1" />
+      <edge source="NOC" target="Richard W. Allen" id="239" weight="1" />
+      <edge source="NOC" target="Rick Larsen" id="240" weight="1" />
+      <edge source="NOC" target="Robert J. Wittman" id="241" weight="1" />
+      <edge source="NOC" target="Sullivan, Dan" id="242" weight="1" />
+      <edge source="NOC" target="Susan A. Davis" id="243" weight="1" />
+      <edge source="DIS" target="Cheri Bustos" id="244" weight="1" />
+      <edge source="DIS" target="Kathy Castor" id="245" weight="1" />
+      <edge source="DIS" target="Michael Patrick Guest" id="246" weight="1" />
+      <edge source="DIS" target="Nancy Pelosi" id="247" weight="1" />
+      <edge source="DIS" target="Perdue, David" id="248" weight="1" />
+      <edge source="UPS" target="Austin Scott" id="249" weight="1" />
+      <edge source="UPS" target="Alan S. Lowenthal" id="250" weight="1" />
+      <edge source="UPS" target="Anthony E. Gonzalez" id="251" weight="1" />
+      <edge source="UPS" target="Bob Gibbs" id="252" weight="1" />
+      <edge source="UPS" target="Brian Higgins" id="253" weight="1" />
+      <edge source="UPS" target="Cheri Bustos" id="254" weight="1" />
+      <edge source="UPS" target="Daniel Meuser" id="255" weight="1" />
+      <edge source="UPS" target="David P. Joyce" id="256" weight="1" />
+      <edge source="UPS" target="Donald Sternoff Beyer Jr" id="257" weight="1" />
+      <edge source="UPS" target="Earl Blumenauer" id="258" weight="1" />
+      <edge source="UPS" target="Garret Graves" id="259" weight="1" />
+      <edge source="UPS" target="John A. Yarmuth" id="260" weight="1" />
+      <edge source="UPS" target="James French Hill" id="261" weight="1" />
+      <edge source="UPS" target="John Curtis" id="262" weight="1" />
+      <edge source="UPS" target="Kathy Castor" id="263" weight="1" />
+      <edge source="UPS" target="Kevin Hern" id="264" weight="1" />
+      <edge source="UPS" target="Mark Green" id="265" weight="1" />
+      <edge source="UPS" target="McConnell, A. Mitchell Jr." id="266" weight="1" />
+      <edge source="UPS" target="Michael K. Simpson" id="267" weight="1" />
+      <edge source="UPS" target="Michael Patrick Guest" id="268" weight="1" />
+      <edge source="UPS" target="Moran, Jerry" id="269" weight="1" />
+      <edge source="UPS" target="Perdue, David" id="270" weight="1" />
+      <edge source="UPS" target="Raúl M. Grijalva" id="271" weight="1" />
+      <edge source="UPS" target="Richard W. Allen" id="272" weight="1" />
+      <edge source="UPS" target="Rick Larsen" id="273" weight="1" />
+      <edge source="UPS" target="Robert E. Latta" id="274" weight="1" />
+      <edge source="UPS" target="Roberts, Pat" id="275" weight="1" />
+      <edge source="UPS" target="Roger W. Marshall" id="276" weight="1" />
+      <edge source="UPS" target="W. Greg Steube" id="277" weight="1" />
+      <edge source="UPS" target="William R. Timmons Iv" id="278" weight="1" />
+      <edge source="UPS" target="Wicker, Roger" id="279" weight="1" />
+      <edge source="UPS" target="Whitehouse, Sheldon" id="280" weight="1" />
+      <edge source="XOM" target="Debbie Dingell" id="281" weight="1" />
+      <edge source="XOM" target="Donald Sternoff Beyer Jr" id="282" weight="1" />
+      <edge source="XOM" target="Hoeven, John" id="283" weight="1" />
+      <edge source="XOM" target="Lloyd Doggett" id="284" weight="1" />
+      <edge source="XOM" target="Robert E. Latta" id="285" weight="1" />
+      <edge source="XOM" target="Roger W. Marshall" id="286" weight="1" />
+      <edge source="XOM" target="Thomas Suozzi" id="287" weight="1" />
+      <edge source="XOM" target="Virginia Foxx" id="288" weight="1" />
+      <edge source="CVS" target="Austin Scott" id="289" weight="1" />
+      <edge source="CVS" target="Bob Gibbs" id="290" weight="1" />
+      <edge source="CVS" target="Brian Mast" id="291" weight="1" />
+      <edge source="CVS" target="Capito, Shelley Moore" id="292" weight="1" />
+      <edge source="CVS" target="Carol Devine Miller" id="293" weight="1" />
+      <edge source="CVS" target="Cassidy, Bill" id="294" weight="1" />
+      <edge source="CVS" target="Cheri Bustos" id="295" weight="1" />
+      <edge source="CVS" target="Daniel Meuser" id="296" weight="1" />
+      <edge source="CVS" target="David P. Joyce" id="297" weight="1" />
+      <edge source="CVS" target="David Trone" id="298" weight="1" />
+      <edge source="CVS" target="Gilbert Cisneros" id="299" weight="1" />
+      <edge source="CVS" target="James E Hon Banks" id="300" weight="1" />
+      <edge source="CVS" target="John Rutherford" id="301" weight="1" />
+      <edge source="CVS" target="King, Angus" id="302" weight="1" />
+      <edge source="CVS" target="Mark Green" id="303" weight="1" />
+      <edge source="CVS" target="Mikie Sherrill" id="304" weight="1" />
+      <edge source="CVS" target="Michael Patrick Guest" id="305" weight="1" />
+      <edge source="CVS" target="Moran, Jerry" id="306" weight="1" />
+      <edge source="CVS" target="Peter Welch" id="307" weight="1" />
+      <edge source="CVS" target="Peters, Gary" id="308" weight="1" />
+      <edge source="CVS" target="Roberts, Pat" id="309" weight="1" />
+      <edge source="CVS" target="Roger W. Marshall" id="310" weight="1" />
+      <edge source="CVS" target="Susan A. Davis" id="311" weight="1" />
+      <edge source="CVS" target="Susan W. Brooks" id="312" weight="1" />
+      <edge source="CVS" target="Toomey, Patrick" id="313" weight="1" />
+      <edge source="CVS" target="Wicker, Roger" id="314" weight="1" />
+      <edge source="Austin Scott" target="AFL" id="315" weight="1" />
+      <edge source="Austin Scott" target="HD" id="316" weight="1" />
+      <edge source="Austin Scott" target="JPM" id="317" weight="1" />
+      <edge source="AFL" target="James French Hill" id="318" weight="1" />
+      <edge source="AFL" target="Richard W. Allen" id="319" weight="1" />
+      <edge source="HD" target="Anthony E. Gonzalez" id="320" weight="1" />
+      <edge source="HD" target="Bob Gibbs" id="321" weight="1" />
+      <edge source="HD" target="Brian Higgins" id="322" weight="1" />
+      <edge source="HD" target="Carper, Thomas R." id="323" weight="1" />
+      <edge source="HD" target="Cheri Bustos" id="324" weight="1" />
+      <edge source="HD" target="Cindy Axne" id="325" weight="1" />
+      <edge source="HD" target="Daniel Meuser" id="326" weight="1" />
+      <edge source="HD" target="David E. Price" id="327" weight="1" />
+      <edge source="HD" target="David P. Joyce" id="328" weight="1" />
+      <edge source="HD" target="Harley E. Rouda Jr." id="329" weight="1" />
+      <edge source="HD" target="Kevin Hern" id="330" weight="1" />
+      <edge source="HD" target="Mark Green" id="331" weight="1" />
+      <edge source="HD" target="McConnell, A. Mitchell Jr." id="332" weight="1" />
+      <edge source="HD" target="Michael K. Simpson" id="333" weight="1" />
+      <edge source="HD" target="Nancy Pelosi" id="334" weight="1" />
+      <edge source="HD" target="Peter Welch" id="335" weight="1" />
+      <edge source="HD" target="Perdue, David" id="336" weight="1" />
+      <edge source="HD" target="Raúl M. Grijalva" id="337" weight="1" />
+      <edge source="HD" target="Suzan K. Delbene" id="338" weight="1" />
+      <edge source="HD" target="Virginia Foxx" id="339" weight="1" />
+      <edge source="HD" target="Warren Davidson" id="340" weight="1" />
+      <edge source="HD" target="Whitehouse, Sheldon" id="341" weight="1" />
+      <edge source="HD" target="Zoe Lofgren" id="342" weight="1" />
+      <edge source="JPM" target="Anthony E. Gonzalez" id="343" weight="1" />
+      <edge source="JPM" target="Brian Higgins" id="344" weight="1" />
+      <edge source="JPM" target="Carper, Thomas R." id="345" weight="1" />
+      <edge source="JPM" target="Christopher L. Jacobs" id="346" weight="1" />
+      <edge source="JPM" target="Cindy Axne" id="347" weight="1" />
+      <edge source="JPM" target="Daniel Meuser" id="348" weight="1" />
+      <edge source="JPM" target="David E. Price" id="349" weight="1" />
+      <edge source="JPM" target="David P. Joyce" id="350" weight="1" />
+      <edge source="JPM" target="Dean Phillips" id="351" weight="1" />
+      <edge source="JPM" target="Debbie Wasserman Schultz" id="352" weight="1" />
+      <edge source="JPM" target="Ed Perlmutter" id="353" weight="1" />
+      <edge source="JPM" target="Harley E. Rouda Jr." id="354" weight="1" />
+      <edge source="JPM" target="James French Hill" id="355" weight="1" />
+      <edge source="JPM" target="Josh Gottheimer" id="356" weight="1" />
+      <edge source="JPM" target="Kathy Castor" id="357" weight="1" />
+      <edge source="JPM" target="Kevin Hern" id="358" weight="1" />
+      <edge source="JPM" target="Lloyd Doggett" id="359" weight="1" />
+      <edge source="JPM" target="Loeffler, Kelly" id="360" weight="1" />
+      <edge source="JPM" target="Mark Green" id="361" weight="1" />
+      <edge source="JPM" target="McConnell, A. Mitchell Jr." id="362" weight="1" />
+      <edge source="JPM" target="Peter Welch" id="363" weight="1" />
+      <edge source="JPM" target="Raúl M. Grijalva" id="364" weight="1" />
+      <edge source="JPM" target="Thomas Suozzi" id="365" weight="1" />
+      <edge source="JPM" target="Suzan K. Delbene" id="366" weight="1" />
+      <edge source="JPM" target="Tom Rice" id="367" weight="1" />
+      <edge source="JPM" target="Tom Malinowski" id="368" weight="1" />
+      <edge source="JPM" target="Toomey, Pat" id="369" weight="1" />
+      <edge source="JPM" target="Toomey, Patrick" id="370" weight="1" />
+      <edge source="JPM" target="Virginia Foxx" id="371" weight="1" />
+      <edge source="JPM" target="W. Greg Steube" id="372" weight="1" />
+      <edge source="JPM" target="Warren Davidson" id="373" weight="1" />
+      <edge source="JPM" target="Wicker, Roger" id="374" weight="1" />
+      <edge source="JPM" target="Whitehouse, Sheldon" id="375" weight="1" />
+      <edge source="JPM" target="Wyden, Ron" id="376" weight="1" />
+      <edge source="Alan S. Lowenthal" target="RTX" id="377" weight="1" />
+      <edge source="Alan S. Lowenthal" target="GOOGL" id="378" weight="1" />
+      <edge source="Alan S. Lowenthal" target="AMZN" id="379" weight="1" />
+      <edge source="Alan S. Lowenthal" target="FDX" id="380" weight="1" />
+      <edge source="RTX" target="Brian Mast" id="381" weight="1" />
+      <edge source="RTX" target="Carol Devine Miller" id="382" weight="1" />
+      <edge source="RTX" target="Daniel Crenshaw" id="383" weight="1" />
+      <edge source="RTX" target="Donald Sternoff  Beyer Jr" id="384" weight="1" />
+      <edge source="RTX" target="Garret Graves" id="385" weight="1" />
+      <edge source="RTX" target="Gilbert Cisneros" id="386" weight="1" />
+      <edge source="RTX" target="James E Hon Banks" id="387" weight="1" />
+      <edge source="RTX" target="James R. Langevin" id="388" weight="1" />
+      <edge source="RTX" target="Joe Courtney" id="389" weight="1" />
+      <edge source="RTX" target="John Rutherford" id="390" weight="1" />
+      <edge source="RTX" target="Katherine M. Clark" id="391" weight="1" />
+      <edge source="RTX" target="K. Michael Conaway" id="392" weight="1" />
+      <edge source="RTX" target="King, Angus" id="393" weight="1" />
+      <edge source="RTX" target="Lois Frankel" id="394" weight="1" />
+      <edge source="RTX" target="Mark Green" id="395" weight="1" />
+      <edge source="RTX" target="Mark Dr Green" id="396" weight="1" />
+      <edge source="RTX" target="Mikie Sherrill" id="397" weight="1" />
+      <edge source="RTX" target="Mo Brooks" id="398" weight="1" />
+      <edge source="RTX" target="Peters, Gary" id="399" weight="1" />
+      <edge source="RTX" target="Richard W. Allen" id="400" weight="1" />
+      <edge source="RTX" target="Rick Larsen" id="401" weight="1" />
+      <edge source="RTX" target="Robert J. Wittman" id="402" weight="1" />
+      <edge source="RTX" target="Sullivan, Dan" id="403" weight="1" />
+      <edge source="RTX" target="Susan A. Davis" id="404" weight="1" />
+      <edge source="GOOGL" target="Capito, Shelley Moore" id="405" weight="1" />
+      <edge source="GOOGL" target="Daniel Meuser" id="406" weight="1" />
+      <edge source="GOOGL" target="Donald Sternoff  Beyer Jr" id="407" weight="1" />
+      <edge source="GOOGL" target="McConnell, A. Mitchell Jr." id="408" weight="1" />
+      <edge source="GOOGL" target="Michael Patrick Guest" id="409" weight="1" />
+      <edge source="GOOGL" target="Perdue, David" id="410" weight="1" />
+      <edge source="GOOGL" target="Tom Rice" id="411" weight="1" />
+      <edge source="AMZN" target="Anthony E. Gonzalez" id="412" weight="1" />
+      <edge source="AMZN" target="Brian Mast" id="413" weight="1" />
+      <edge source="AMZN" target="Capito, Shelley Moore" id="414" weight="1" />
+      <edge source="AMZN" target="Carper, Thomas R." id="415" weight="1" />
+      <edge source="AMZN" target="Cassidy, Bill" id="416" weight="1" />
+      <edge source="AMZN" target="Cheri Bustos" id="417" weight="1" />
+      <edge source="AMZN" target="Christopher L. Jacobs" id="418" weight="1" />
+      <edge source="AMZN" target="Cindy Axne" id="419" weight="1" />
+      <edge source="AMZN" target="David E. Price" id="420" weight="1" />
+      <edge source="AMZN" target="Dean Phillips" id="421" weight="1" />
+      <edge source="AMZN" target="David Trone" id="422" weight="1" />
+      <edge source="AMZN" target="Debbie Wasserman Schultz" id="423" weight="1" />
+      <edge source="AMZN" target="Donald Sternoff  Beyer Jr" id="424" weight="1" />
+      <edge source="AMZN" target="Earl Blumenauer" id="425" weight="1" />
+      <edge source="AMZN" target="Dwight Evans" id="426" weight="1" />
+      <edge source="AMZN" target="Harley E. Rouda Jr." id="427" weight="1" />
+      <edge source="AMZN" target="Josh Gottheimer" id="428" weight="1" />
+      <edge source="AMZN" target="Justin Amash" id="429" weight="1" />
+      <edge source="AMZN" target="Katherine M. Clark" id="430" weight="1" />
+      <edge source="AMZN" target="Kathy Castor" id="431" weight="1" />
+      <edge source="AMZN" target="Lloyd Doggett" id="432" weight="1" />
+      <edge source="AMZN" target="Loeffler, Kelly" id="433" weight="1" />
+      <edge source="AMZN" target="Lois Frankel" id="434" weight="1" />
+      <edge source="AMZN" target="McConnell, A. Mitchell Jr." id="435" weight="1" />
+      <edge source="AMZN" target="Nancy Pelosi" id="436" weight="1" />
+      <edge source="AMZN" target="Peter Welch" id="437" weight="1" />
+      <edge source="AMZN" target="Peters, Gary" id="438" weight="1" />
+      <edge source="AMZN" target="Raúl M. Grijalva" id="439" weight="1" />
+      <edge source="AMZN" target="Rick Larsen" id="440" weight="1" />
+      <edge source="AMZN" target="Susan A. Davis" id="441" weight="1" />
+      <edge source="AMZN" target="Thomas Suozzi" id="442" weight="1" />
+      <edge source="AMZN" target="Suzan K. Delbene" id="443" weight="1" />
+      <edge source="AMZN" target="Tom Malinowski" id="444" weight="1" />
+      <edge source="AMZN" target="Warren Davidson" id="445" weight="1" />
+      <edge source="AMZN" target="Wicker, Roger" id="446" weight="1" />
+      <edge source="AMZN" target="Whitehouse, Sheldon" id="447" weight="1" />
+      <edge source="AMZN" target="Wyden, Ron" id="448" weight="1" />
+      <edge source="AMZN" target="Zoe Lofgren" id="449" weight="1" />
+      <edge source="FDX" target="James French Hill" id="450" weight="1" />
+      <edge source="FDX" target="Rick Larsen" id="451" weight="1" />
+      <edge source="Anthony E. Gonzalez" target="MSFT" id="452" weight="1" />
+      <edge source="Anthony E. Gonzalez" target="NFLX" id="453" weight="1" />
+      <edge source="MSFT" target="Bob Gibbs" id="454" weight="1" />
+      <edge source="MSFT" target="Brian Mast" id="455" weight="1" />
+      <edge source="MSFT" target="Capito, Shelley Moore" id="456" weight="1" />
+      <edge source="MSFT" target="Carper, Thomas R." id="457" weight="1" />
+      <edge source="MSFT" target="Cheri Bustos" id="458" weight="1" />
+      <edge source="MSFT" target="Christopher L. Jacobs" id="459" weight="1" />
+      <edge source="MSFT" target="Cindy Axne" id="460" weight="1" />
+      <edge source="MSFT" target="Daniel Meuser" id="461" weight="1" />
+      <edge source="MSFT" target="David E. Price" id="462" weight="1" />
+      <edge source="MSFT" target="Dean Phillips" id="463" weight="1" />
+      <edge source="MSFT" target="David Trone" id="464" weight="1" />
+      <edge source="MSFT" target="Debbie Wasserman Schultz" id="465" weight="1" />
+      <edge source="MSFT" target="Donald Sternoff  Beyer Jr" id="466" weight="1" />
+      <edge source="MSFT" target="Ed Perlmutter" id="467" weight="1" />
+      <edge source="MSFT" target="Harley E. Rouda Jr." id="468" weight="1" />
+      <edge source="MSFT" target="James French Hill" id="469" weight="1" />
+      <edge source="MSFT" target="Josh Gottheimer" id="470" weight="1" />
+      <edge source="MSFT" target="Justin Amash" id="471" weight="1" />
+      <edge source="MSFT" target="Katherine M. Clark" id="472" weight="1" />
+      <edge source="MSFT" target="Kathy Castor" id="473" weight="1" />
+      <edge source="MSFT" target="Kevin Hern" id="474" weight="1" />
+      <edge source="MSFT" target="Lloyd Doggett" id="475" weight="1" />
+      <edge source="MSFT" target="Loeffler, Kelly" id="476" weight="1" />
+      <edge source="MSFT" target="Lois Frankel" id="477" weight="1" />
+      <edge source="MSFT" target="Michael Patrick Guest" id="478" weight="1" />
+      <edge source="MSFT" target="Nancy Pelosi" id="479" weight="1" />
+      <edge source="MSFT" target="Peter Welch" id="480" weight="1" />
+      <edge source="MSFT" target="Perdue, David" id="481" weight="1" />
+      <edge source="MSFT" target="Raúl M. Grijalva" id="482" weight="1" />
+      <edge source="MSFT" target="Rick Larsen" id="483" weight="1" />
+      <edge source="MSFT" target="Robert E. Latta" id="484" weight="1" />
+      <edge source="MSFT" target="Thomas Suozzi" id="485" weight="1" />
+      <edge source="MSFT" target="Suzan K. Delbene" id="486" weight="1" />
+      <edge source="MSFT" target="Tom Malinowski" id="487" weight="1" />
+      <edge source="MSFT" target="Toomey, Pat" id="488" weight="1" />
+      <edge source="MSFT" target="Toomey, Patrick" id="489" weight="1" />
+      <edge source="MSFT" target="Virginia Foxx" id="490" weight="1" />
+      <edge source="MSFT" target="W. Greg Steube" id="491" weight="1" />
+      <edge source="MSFT" target="Warren Davidson" id="492" weight="1" />
+      <edge source="MSFT" target="Wicker, Roger" id="493" weight="1" />
+      <edge source="MSFT" target="Whitehouse, Sheldon" id="494" weight="1" />
+      <edge source="MSFT" target="Wyden, Ron" id="495" weight="1" />
+      <edge source="MSFT" target="Zoe Lofgren" id="496" weight="1" />
+      <edge source="Bob Gibbs" target="BAC" id="497" weight="1" />
+      <edge source="Bob Gibbs" target="PFE" id="498" weight="1" />
+      <edge source="BAC" target="Brian Higgins" id="499" weight="1" />
+      <edge source="BAC" target="Carper, Thomas R." id="500" weight="1" />
+      <edge source="BAC" target="Cindy Axne" id="501" weight="1" />
+      <edge source="BAC" target="David E. Price" id="502" weight="1" />
+      <edge source="BAC" target="Debbie Wasserman Schultz" id="503" weight="1" />
+      <edge source="BAC" target="Ed Perlmutter" id="504" weight="1" />
+      <edge source="BAC" target="James French Hill" id="505" weight="1" />
+      <edge source="BAC" target="Josh Gottheimer" id="506" weight="1" />
+      <edge source="BAC" target="Lloyd Doggett" id="507" weight="1" />
+      <edge source="BAC" target="Mark Green" id="508" weight="1" />
+      <edge source="BAC" target="Moran, Jerry" id="509" weight="1" />
+      <edge source="BAC" target="Perdue, David" id="510" weight="1" />
+      <edge source="BAC" target="Raúl M. Grijalva" id="511" weight="1" />
+      <edge source="BAC" target="Robert E. Latta" id="512" weight="1" />
+      <edge source="BAC" target="Thomas Suozzi" id="513" weight="1" />
+      <edge source="BAC" target="Tom Rice" id="514" weight="1" />
+      <edge source="BAC" target="Toomey, Pat" id="515" weight="1" />
+      <edge source="BAC" target="Virginia Foxx" id="516" weight="1" />
+      <edge source="BAC" target="Warren Davidson" id="517" weight="1" />
+      <edge source="BAC" target="Whitehouse, Sheldon" id="518" weight="1" />
+      <edge source="PFE" target="Cassidy, Bill" id="519" weight="1" />
+      <edge source="PFE" target="Daniel Meuser" id="520" weight="1" />
+      <edge source="PFE" target="David P. Joyce" id="521" weight="1" />
+      <edge source="PFE" target="David Trone" id="522" weight="1" />
+      <edge source="PFE" target="Earl Blumenauer" id="523" weight="1" />
+      <edge source="PFE" target="Gilbert Cisneros" id="524" weight="1" />
+      <edge source="PFE" target="James E Hon Banks" id="525" weight="1" />
+      <edge source="PFE" target="John Rutherford" id="526" weight="1" />
+      <edge source="PFE" target="Josh Gottheimer" id="527" weight="1" />
+      <edge source="PFE" target="Mark Dr Green" id="528" weight="1" />
+      <edge source="PFE" target="Moran, Jerry" id="529" weight="1" />
+      <edge source="PFE" target="Peters, Gary" id="530" weight="1" />
+      <edge source="PFE" target="Roberts, Pat" id="531" weight="1" />
+      <edge source="PFE" target="Roger W. Marshall" id="532" weight="1" />
+      <edge source="PFE" target="Susan W. Brooks" id="533" weight="1" />
+      <edge source="PFE" target="Thomas Suozzi" id="534" weight="1" />
+      <edge source="PFE" target="Toomey, Pat" id="535" weight="1" />
+      <edge source="Brian Higgins" target="AEP" id="536" weight="1" />
+      <edge source="Brian Higgins" target="INTC" id="537" weight="1" />
+      <edge source="Brian Higgins" target="PG" id="538" weight="1" />
+      <edge source="AEP" target="David B. Mckinley" id="539" weight="1" />
+      <edge source="AEP" target="Robert E. Latta" id="540" weight="1" />
+      <edge source="INTC" target="Earl Blumenauer" id="541" weight="1" />
+      <edge source="INTC" target="Wyden, Ron" id="542" weight="1" />
+      <edge source="PG" target="Michael K. Simpson" id="543" weight="1" />
+      <edge source="Capito, Shelley Moore" target="MRK" id="544" weight="1" />
+      <edge source="Capito, Shelley Moore" target="WMT" id="545" weight="1" />
+      <edge source="MRK" target="Carol Devine Miller" id="546" weight="1" />
+      <edge source="MRK" target="Cassidy, Bill" id="547" weight="1" />
+      <edge source="MRK" target="David Cheston Rouzer" id="548" weight="1" />
+      <edge source="MRK" target="David P. Joyce" id="549" weight="1" />
+      <edge source="MRK" target="Gilbert Cisneros" id="550" weight="1" />
+      <edge source="MRK" target="James E Hon Banks" id="551" weight="1" />
+      <edge source="MRK" target="John Rutherford" id="552" weight="1" />
+      <edge source="MRK" target="Mark Dr Green" id="553" weight="1" />
+      <edge source="MRK" target="Michael K. Simpson" id="554" weight="1" />
+      <edge source="MRK" target="Peters, Gary" id="555" weight="1" />
+      <edge source="MRK" target="Richard W. Allen" id="556" weight="1" />
+      <edge source="MRK" target="Roberts, Pat" id="557" weight="1" />
+      <edge source="MRK" target="Roger W. Marshall" id="558" weight="1" />
+      <edge source="MRK" target="Susan W. Brooks" id="559" weight="1" />
+      <edge source="WMT" target="Carper, Thomas R." id="560" weight="1" />
+      <edge source="WMT" target="Daniel Meuser" id="561" weight="1" />
+      <edge source="WMT" target="Kevin Hern" id="562" weight="1" />
+      <edge source="WMT" target="Peter Welch" id="563" weight="1" />
+      <edge source="WMT" target="Susan A. Davis" id="564" weight="1" />
+      <edge source="WMT" target="Virginia Foxx" id="565" weight="1" />
+      <edge source="Carper, Thomas R." target="AAPL" id="566" weight="1" />
+      <edge source="Carper, Thomas R." target="V" id="567" weight="1" />
+      <edge source="AAPL" target="Christopher L. Jacobs" id="568" weight="1" />
+      <edge source="AAPL" target="Daniel Crenshaw" id="569" weight="1" />
+      <edge source="AAPL" target="Debbie Wasserman Schultz" id="570" weight="1" />
+      <edge source="AAPL" target="Donald Sternoff  Beyer Jr" id="571" weight="1" />
+      <edge source="AAPL" target="Justin Amash" id="572" weight="1" />
+      <edge source="AAPL" target="Lloyd Doggett" id="573" weight="1" />
+      <edge source="AAPL" target="Lois Frankel" id="574" weight="1" />
+      <edge source="AAPL" target="Nancy Pelosi" id="575" weight="1" />
+      <edge source="AAPL" target="Tom Malinowski" id="576" weight="1" />
+      <edge source="AAPL" target="W. Greg Steube" id="577" weight="1" />
+      <edge source="AAPL" target="Wyden, Ron" id="578" weight="1" />
+      <edge source="AAPL" target="Zoe Lofgren" id="579" weight="1" />
+      <edge source="V" target="Cindy Axne" id="580" weight="1" />
+      <edge source="V" target="Harley E. Rouda Jr." id="581" weight="1" />
+      <edge source="V" target="Josh Gottheimer" id="582" weight="1" />
+      <edge source="V" target="Nancy Pelosi" id="583" weight="1" />
+      <edge source="V" target="Peter Welch" id="584" weight="1" />
+      <edge source="V" target="Perdue, David" id="585" weight="1" />
+      <edge source="V" target="Suzan K. Delbene" id="586" weight="1" />
+      <edge source="V" target="Tom Rice" id="587" weight="1" />
+      <edge source="V" target="Virginia Foxx" id="588" weight="1" />
+      <edge source="V" target="Wicker, Roger" id="589" weight="1" />
+      <edge source="V" target="Whitehouse, Sheldon" id="590" weight="1" />
+      <edge source="Cassidy, Bill" target="CHEVRON" id="591" weight="1" />
+      <edge source="Cassidy, Bill" target="EXXON" id="592" weight="1" />
+      <edge source="Cheri Bustos" target="T" id="593" weight="1" />
+      <edge source="T" target="Harley E. Rouda Jr." id="594" weight="1" />
+      <edge source="T" target="Kathy Castor" id="595" weight="1" />
+      <edge source="T" target="Peter Welch" id="596" weight="1" />
+      <edge source="T" target="Robert E. Latta" id="597" weight="1" />
+      <edge source="T" target="Roger W. Marshall" id="598" weight="1" />
+      <edge source="T" target="Suzan K. Delbene" id="599" weight="1" />
+      <edge source="T" target="Toomey, Patrick" id="600" weight="1" />
+      <edge source="T" target="Virginia Foxx" id="601" weight="1" />
+      <edge source="T" target="Zoe Lofgren" id="602" weight="1" />
+      <edge source="Christopher L. Jacobs" target="ING" id="603" weight="1" />
+      <edge source="Christopher L. Jacobs" target="FB" id="604" weight="1" />
+      <edge source="Christopher L. Jacobs" target="BRK.B" id="605" weight="1" />
+      <edge source="FB" target="Justin Amash" id="606" weight="1" />
+      <edge source="FB" target="Nancy Pelosi" id="607" weight="1" />
+      <edge source="Cindy Axne" target="WFC" id="608" weight="1" />
+      <edge source="Cindy Axne" target="C" id="609" weight="1" />
+      <edge source="WFC" target="David E. Price" id="610" weight="1" />
+      <edge source="WFC" target="Ed Perlmutter" id="611" weight="1" />
+      <edge source="WFC" target="Harley E. Rouda Jr." id="612" weight="1" />
+      <edge source="WFC" target="James French Hill" id="613" weight="1" />
+      <edge source="WFC" target="Josh Gottheimer" id="614" weight="1" />
+      <edge source="WFC" target="Lloyd Doggett" id="615" weight="1" />
+      <edge source="WFC" target="Raúl M. Grijalva" id="616" weight="1" />
+      <edge source="WFC" target="Thomas Suozzi" id="617" weight="1" />
+      <edge source="WFC" target="Suzan K. Delbene" id="618" weight="1" />
+      <edge source="WFC" target="Toomey, Pat" id="619" weight="1" />
+      <edge source="WFC" target="Toomey, Patrick" id="620" weight="1" />
+      <edge source="WFC" target="Warren Davidson" id="621" weight="1" />
+      <edge source="WFC" target="Wyden, Ron" id="622" weight="1" />
+      <edge source="C" target="David E. Price" id="623" weight="1" />
+      <edge source="C" target="Debbie Wasserman Schultz" id="624" weight="1" />
+      <edge source="C" target="Ed Perlmutter" id="625" weight="1" />
+      <edge source="C" target="James French Hill" id="626" weight="1" />
+      <edge source="C" target="Josh Gottheimer" id="627" weight="1" />
+      <edge source="C" target="Lloyd Doggett" id="628" weight="1" />
+      <edge source="C" target="Raúl M. Grijalva" id="629" weight="1" />
+      <edge source="C" target="Thomas Suozzi" id="630" weight="1" />
+      <edge source="C" target="Tom Rice" id="631" weight="1" />
+      <edge source="C" target="Toomey, Pat" id="632" weight="1" />
+      <edge source="C" target="Warren Davidson" id="633" weight="1" />
+      <edge source="Daniel Crenshaw" target="GD" id="634" weight="1" />
+      <edge source="Daniel Crenshaw" target="CACI" id="635" weight="1" />
+      <edge source="Daniel Crenshaw" target="TXT" id="636" weight="1" />
+      <edge source="Daniel Crenshaw" target="HON" id="637" weight="1" />
+      <edge source="GD" target="James E Hon Banks" id="638" weight="1" />
+      <edge source="GD" target="James R. Langevin" id="639" weight="1" />
+      <edge source="GD" target="Joe Courtney" id="640" weight="1" />
+      <edge source="GD" target="King, Angus" id="641" weight="1" />
+      <edge source="GD" target="Mark Dr Green" id="642" weight="1" />
+      <edge source="GD" target="Mikie Sherrill" id="643" weight="1" />
+      <edge source="GD" target="Mo Brooks" id="644" weight="1" />
+      <edge source="GD" target="Peters, Gary" id="645" weight="1" />
+      <edge source="GD" target="Robert J. Wittman" id="646" weight="1" />
+      <edge source="GD" target="Sullivan, Dan" id="647" weight="1" />
+      <edge source="GD" target="Susan A. Davis" id="648" weight="1" />
+      <edge source="CACI" target="James R. Langevin" id="649" weight="1" />
+      <edge source="TXT" target="James R. Langevin" id="650" weight="1" />
+      <edge source="HON" target="David Cheston Rouzer" id="651" weight="1" />
+      <edge source="HON" target="Katherine M. Clark" id="652" weight="1" />
+      <edge source="HON" target="Mikie Sherrill" id="653" weight="1" />
+      <edge source="HON" target="Mo Brooks" id="654" weight="1" />
+      <edge source="David B. Mckinley" target="CNP" id="655" weight="1" />
+      <edge source="David B. Mckinley" target="SO" id="656" weight="1" />
+      <edge source="David B. Mckinley" target="CMS" id="657" weight="1" />
+      <edge source="David B. Mckinley" target="D" id="658" weight="1" />
+      <edge source="David B. Mckinley" target="DUK" id="659" weight="1" />
+      <edge source="David B. Mckinley" target="EXC" id="660" weight="1" />
+      <edge source="David B. Mckinley" target="FE" id="661" weight="1" />
+      <edge source="David B. Mckinley" target="NEE" id="662" weight="1" />
+      <edge source="David B. Mckinley" target="NRG" id="663" weight="1" />
+      <edge source="SO" target="Richard W. Allen" id="664" weight="1" />
+      <edge source="DUK" target="David Cheston Rouzer" id="665" weight="1" />
+      <edge source="DUK" target="Debbie Dingell" id="666" weight="1" />
+      <edge source="DUK" target="Tom Rice" id="667" weight="1" />
+      <edge source="David Cheston Rouzer" target="NUE" id="668" weight="1" />
+      <edge source="David Cheston Rouzer" target="CAT" id="669" weight="1" />
+      <edge source="David Cheston Rouzer" target="UNP" id="670" weight="1" />
+      <edge source="David Cheston Rouzer" target="MMC" id="671" weight="1" />
+      <edge source="UNP" target="Garret Graves" id="672" weight="1" />
+      <edge source="UNP" target="Moran, Jerry" id="673" weight="1" />
+      <edge source="UNP" target="Rick Larsen" id="674" weight="1" />
+      <edge source="UNP" target="Roberts, Pat" id="675" weight="1" />
+      <edge source="UNP" target="Roger W. Marshall" id="676" weight="1" />
+      <edge source="MMC" target="King, Angus" id="677" weight="1" />
+      <edge source="MMC" target="Moran, Jerry" id="678" weight="1" />
+      <edge source="MMC" target="Roberts, Pat" id="679" weight="1" />
+      <edge source="David Trone" target="CMCSA" id="680" weight="1" />
+      <edge source="David Trone" target="ANTM" id="681" weight="1" />
+      <edge source="David Trone" target="CI" id="682" weight="1" />
+      <edge source="CMCSA" target="Nancy Pelosi" id="683" weight="1" />
+      <edge source="CMCSA" target="Toomey, Pat" id="684" weight="1" />
+      <edge source="CMCSA" target="Toomey, Patrick" id="685" weight="1" />
+      <edge source="CMCSA" target="Wyden, Ron" id="686" weight="1" />
+      <edge source="ANTM" target="Gilbert Cisneros" id="687" weight="1" />
+      <edge source="ANTM" target="John A. Yarmuth" id="688" weight="1" />
+      <edge source="ANTM" target="King, Angus" id="689" weight="1" />
+      <edge source="ANTM" target="McConnell, A. Mitchell Jr." id="690" weight="1" />
+      <edge source="ANTM" target="Mikie Sherrill" id="691" weight="1" />
+      <edge source="ANTM" target="Susan W. Brooks" id="692" weight="1" />
+      <edge source="CI" target="Gilbert Cisneros" id="693" weight="1" />
+      <edge source="CI" target="King, Angus" id="694" weight="1" />
+      <edge source="CI" target="Mikie Sherrill" id="695" weight="1" />
+      <edge source="CI" target="Susan W. Brooks" id="696" weight="1" />
+      <edge source="Debbie Dingell" target="F" id="697" weight="1" />
+      <edge source="Earl Blumenauer" target="NIKE" id="698" weight="1" />
+      <edge source="Earl Blumenauer" target="BOEING" id="699" weight="1" />
+      <edge source="Earl Blumenauer" target="WM" id="700" weight="1" />
+      <edge source="BOEING" target="John Curtis" id="701" weight="1" />
+      <edge source="BOEING" target="William R. Timmons Iv" id="702" weight="1" />
+      <edge source="Dwight Evans" target="PNC" id="703" weight="1" />
+      <edge source="Dwight Evans" target="COMCAST" id="704" weight="1" />
+      <edge source="Dwight Evans" target="WELLS FARGO" id="705" weight="1" />
+      <edge source="Dwight Evans" target="PECO" id="706" weight="1" />
+      <edge source="PNC" target="Toomey, Patrick" id="707" weight="1" />
+      <edge source="WELLS FARGO" target="John Curtis" id="708" weight="1" />
+      <edge source="Garret Graves" target="CHRW" id="709" weight="1" />
+      <edge source="Hoeven, John" target="CHS" id="710" weight="1" />
+      <edge source="Hoeven, John" target="CVX" id="711" weight="1" />
+      <edge source="Hoeven, John" target="COP" id="712" weight="1" />
+      <edge source="Hoeven, John" target="SLB" id="713" weight="1" />
+      <edge source="Hoeven, John" target="HAL" id="714" weight="1" />
+      <edge source="Hoeven, John" target="WMB" id="715" weight="1" />
+      <edge source="Hoeven, John" target="KMI" id="716" weight="1" />
+      <edge source="Hoeven, John" target="MPC" id="717" weight="1" />
+      <edge source="Hoeven, John" target="PSX" id="718" weight="1" />
+      <edge source="James E Hon Banks" target="BAE" id="719" weight="1" />
+      <edge source="James E Hon Banks" target="JNJ" id="720" weight="1" />
+      <edge source="JNJ" target="John Rutherford" id="721" weight="1" />
+      <edge source="JNJ" target="Lois Frankel" id="722" weight="1" />
+      <edge source="JNJ" target="Mark Dr Green" id="723" weight="1" />
+      <edge source="JNJ" target="Michael K. Simpson" id="724" weight="1" />
+      <edge source="James R. Langevin" target="AET" id="725" weight="1" />
+      <edge source="James R. Langevin" target="BAH" id="726" weight="1" />
+      <edge source="James R. Langevin" target="LHX" id="727" weight="1" />
+      <edge source="AET" target="John A. Yarmuth" id="728" weight="1" />
+      <edge source="BAH" target="McConnell, A. Mitchell Jr." id="729" weight="1" />
+      <edge source="John A. Yarmuth" target="HUM" id="730" weight="1" />
+      <edge source="HUM" target="McConnell, A. Mitchell Jr." id="731" weight="1" />
+      <edge source="HUM" target="Susan W. Brooks" id="732" weight="1" />
+      <edge source="James French Hill" target="USB" id="733" weight="1" />
+      <edge source="John Curtis" target="ATVI" id="734" weight="1" />
+      <edge source="John Curtis" target="AMAZON" id="735" weight="1" />
+      <edge source="John Curtis" target="GOLDMAN SACHS" id="736" weight="1" />
+      <edge source="John Curtis" target="RAYTHEON" id="737" weight="1" />
+      <edge source="John Curtis" target="DOMINION ENERGY" id="738" weight="1" />
+      <edge source="K. Michael Conaway" target="ADM" id="739" weight="1" />
+      <edge source="K. Michael Conaway" target="DE" id="740" weight="1" />
+      <edge source="Loeffler, Kelly" target="ICE" id="741" weight="1" />
+      <edge source="Michael K. Simpson" target="UTX" id="742" weight="1" />
+      <edge source="Michael K. Simpson" target="MMM" id="743" weight="1" />
+      <edge source="Michael Patrick Guest" target="RAY" id="744" weight="1" />
+      <edge source="RAY" target="Whitehouse, Sheldon" id="745" weight="1" />
+      <edge source="Moran, Jerry" target="KO" id="746" weight="1" />
+      <edge source="KO" target="Perdue, David" id="747" weight="1" />
+      <edge source="KO" target="Roberts, Pat" id="748" weight="1" />
+      <edge source="KO" target="Roger W. Marshall" id="749" weight="1" />
+      <edge source="Perdue, David" target="HOME" id="750" weight="1" />
+      <edge source="Robert E. Latta" target="VZ" id="751" weight="1" />
+      <edge source="VZ" target="Toomey, Pat" id="752" weight="1" />
+      <edge source="VZ" target="Toomey, Patrick" id="753" weight="1" />
+      <edge source="VZ" target="Warren Davidson" id="754" weight="1" />
+      <edge source="Roberts, Pat" target="AMGN" id="755" weight="1" />
+      <edge source="Susie Lee" target="LVS" id="756" weight="1" />
+      <edge source="Susie Lee" target="WYNN" id="757" weight="1" />
+      <edge source="Susie Lee" target="MGM" id="758" weight="1" />
+      <edge source="Susan W. Brooks" target="BAX" id="759" weight="1" />
+      <edge source="Susan W. Brooks" target="LLY" id="760" weight="1" />
+      <edge source="Susan W. Brooks" target="MCK" id="761" weight="1" />
+      <edge source="Tom Rice" target="NVR" id="762" weight="1" />
+      <edge source="W. Greg Steube" target="NKE" id="763" weight="1" />
+      <edge source="NKE" target="Zoe Lofgren" id="764" weight="1" />
+      <edge source="William R. Timmons Iv" target="LOCKHEED MARTIN" id="765" weight="1" />
+      <edge source="Wyden, Ron" target="NVDA" id="766" weight="1" />
+    </edges>
+  </graph>
+</gexf>
