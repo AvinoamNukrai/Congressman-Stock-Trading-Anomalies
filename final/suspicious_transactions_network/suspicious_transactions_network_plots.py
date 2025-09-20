@@ -41,8 +41,6 @@ def plot_full_network(G):
         for s, t in zip(pagerank_scores, node_types)
     ]
 
-    # --- EDGES MADE MUCH DARKER ---
-    # Increased alpha to 0.6 and changed color to black for high contrast.
     nx.draw_networkx_edges(H, pos, alpha=0.6, edge_color='black', width=0.5)
 
     politician_nodes = [n for n, d in H.nodes(data=True) if d.get('type') == 'politician']
@@ -53,13 +51,14 @@ def plot_full_network(G):
                            node_size=node_sizes, alpha=0.8)
 
     labels = {n: n for n in politician_nodes}
-
     label_pos = {k: (v[0], v[1] + 0.035) for k, v in pos.items()}
 
-    nx.draw_networkx_labels(H, label_pos, labels=labels, font_size=12,
-                            font_weight='bold')
+    # --- TEXT BIGGER, BOLDER, AND WITH BACKGROUND ---
+    nx.draw_networkx_labels(H, label_pos, labels=labels, font_size=16,
+                            font_weight='bold',
+                            bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=0.5))
 
-    plt.title("Suspicious Politician Transaction Network Map", fontsize=24)
+    plt.title("Suspicious Politician Transaction Network Map", fontsize=28, fontweight='bold')
     plt.axis('off')
 
     output_path = os.path.join(PLOTS_DIR, "suspicious_full_network_map.png")
@@ -93,10 +92,18 @@ def plot_top_influencers(G):
     sns.barplot(x='PageRank', y='Politician', data=df, hue='Community',
                 dodge=False, palette='viridis')
 
-    plt.title("Top Most Suspicious Influential Politicians", fontsize=16)
-    plt.xlabel("PageRank Score", fontsize=12)
-    plt.ylabel("Politician", fontsize=12)
-    plt.legend(title='Community ID')
+    # --- TEXT BIGGER & BOLDER ---
+    plt.title("Top Most Suspicious Influential Politicians", fontsize=20, fontweight='bold')
+    plt.xlabel("PageRank Score", fontsize=14, fontweight='bold')
+    plt.ylabel("Politician", fontsize=14, fontweight='bold')
+
+    # Increase tick label size for readability
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
+
+    legend = plt.legend(title='Community ID', fontsize=12)
+    plt.setp(legend.get_title(), fontsize=14, fontweight='bold')
+
     plt.tight_layout()
 
     output_path = os.path.join(PLOTS_DIR, "suspicious_top_influencers.png")
