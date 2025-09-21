@@ -1,8 +1,11 @@
 import os
+from datetime import timedelta
+from itertools import combinations
+from datetime import timedelta
+
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-from itertools import combinations
 
 
 def build_suspicious_transactions_network(
@@ -10,7 +13,16 @@ def build_suspicious_transactions_network(
         gexf_output_path: str,
         png_output_path: str
 ) -> nx.Graph:
-    """Builds and saves a network graph of suspicious transactions."""
+    """Builds and saves a network graph of suspicious transactions.
+
+    Args:
+        csv_path: Path to the transactions CSV file.
+        gexf_output_path: Path to save the GEXF graph file.
+        png_output_path: Path to save the graph plot PNG.
+
+    Returns:
+        The constructed NetworkX graph.
+    """
     df = pd.read_csv(csv_path)
     df["Traded_Date"] = pd.to_datetime(df["Traded_Date"])
     G = nx.Graph()
@@ -48,7 +60,11 @@ def build_suspicious_transactions_network(
 
 
 def _add_transaction_edges(G: nx.Graph) -> None:
-    """Adds edges between transaction nodes with the same ticker within 10 days."""
+    """Adds edges between transaction nodes with the same ticker within 10 days.
+
+    Only connects transactions if at least one of them is suspicious.
+    Also ensures both transactions are connected to their respective politicians.
+    """
     transaction_nodes = [
         node for node, attrs in G.nodes(data=True) if attrs.get("type") == "transaction"
     ]
@@ -62,14 +78,35 @@ def _add_transaction_edges(G: nx.Graph) -> None:
             date1 = pd.to_datetime(G.nodes[u]["date"])
             date2 = pd.to_datetime(G.nodes[v]["date"])
 
+            # Check if dates are within 10 days and at least one transaction is suspicious
             if (abs((date1 - date2).days) <= 10 and
                     (G.nodes[u].get("suspicious", False) or G.nodes[v].get("suspicious", False))):
                 G.add_edge(u, v)
+                # Ensure both transactions are connected to their politicians
+                _ensure_politician_transaction_edges(G, u, v)
+
+
+def _ensure_politician_transaction_edges(G: nx.Graph, transaction1: str, transaction2: str) -> None:
+    """Ensures politician-transaction edges exist for connected transactions."""
+    politician_nodes = [node for node, attrs in G.nodes(data=True) if attrs.get("type") == "politician"]
+
+    for politician in politician_nodes:
+        # Check if politician should be connected to either transaction
+        if not G.has_edge(politician, transaction1):
+            # Extract politician name from transaction ID format: ticker_politician_date
+            transaction1_politician = transaction1.split('_')[1]
+            if politician == transaction1_politician:
+                G.add_edge(politician, transaction1)
+
+        if not G.has_edge(politician, transaction2):
+            transaction2_politician = transaction2.split('_')[1]
+            if politician == transaction2_politician:
+                G.add_edge(politician, transaction2)
 
 
 def _plot_and_save_graph(G: nx.Graph, png_output_path: str) -> None:
-    """Plots the network graph and saves it as a PNG file with enhanced text formatting."""
-    politician_nodes = {n for n, d in G.nodes(data=True) if d.get("type") == "politician"}
+    """Plots the network graph and saves it as a PNG file."""
+    politician_nodes = {node for node, attrs in G.nodes(data=True) if attrs.get("type") == "politician"}
     connected_nodes = set()
 
     for politician in politician_nodes:
@@ -78,70 +115,81 @@ def _plot_and_save_graph(G: nx.Graph, png_output_path: str) -> None:
             connected_nodes.add(politician)
             connected_nodes.update(neighbors)
 
-    transaction_nodes = {n for n, d in G.nodes(data=True) if d.get("type") == "transaction"}
+    transaction_nodes = {node for node, attrs in G.nodes(data=True) if attrs.get("type") == "transaction"}
     for transaction in transaction_nodes:
         if G.degree(transaction) > 0:
             connected_nodes.add(transaction)
 
     G_filtered = G.subgraph(connected_nodes).copy()
+
     if G_filtered.number_of_nodes() == 0:
         print("No connected nodes to plot.")
         return
 
-    plt.figure(figsize=(40, 40))
-    node_colors, node_sizes, labels = [], [], {}
+    plt.figure(figsize=(30, 30))
+    node_colors = []
+    node_sizes = []
+    labels = {}
 
     for node, attrs in G_filtered.nodes(data=True):
         if attrs.get("type") == "politician":
             node_colors.append("skyblue")
-            node_sizes.append(3500)
+            node_sizes.append(300)
             labels[node] = node
         elif attrs.get("type") == "transaction":
-            node_colors.append("red" if attrs.get("suspicious", False) else "purple")
-            node_sizes.append(900 if attrs.get("suspicious", False) else 600)
+            if attrs.get("suspicious", False):
+                node_colors.append("red")
+            else:
+                node_colors.append("purple")
+            node_sizes.append(50)
             labels[node] = ""
         else:
             node_colors.append("gray")
-            node_sizes.append(400)
+            node_sizes.append(50)
             labels[node] = ""
 
-    pos = nx.spring_layout(G_filtered, k=1.5, iterations=200, seed=42)
+    pos = nx.spring_layout(G_filtered, k=0.3, iterations=100, seed=42)
 
-    nx.draw_networkx_edges(G_filtered, pos, edge_color="#444444", alpha=0.5, width=1.2)
+    # CHANGED: Increased the vertical offset to accommodate the larger font
+    label_pos = {k: (v[0], v[1] + 0.05) for k, v in pos.items()}
 
-    nx.draw_networkx_nodes(G_filtered, pos, node_color=node_colors, node_size=node_sizes, alpha=0.9)
+    nx.draw_networkx_edges(G_filtered, pos, alpha=0.2)
+    nx.draw_networkx_nodes(G_filtered, pos, node_color=node_colors, node_size=node_sizes)
 
+    # CHANGED: Increased font_size for politician names
     nx.draw_networkx_labels(
-        G_filtered, pos, labels=labels, font_size=32, font_weight="bold", font_color="black",
-        bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=2.0)
+        G_filtered,
+        pos=label_pos,
+        labels=labels,
+        font_size=22,
+        font_weight='bold',
+        font_color="black",
+        bbox=dict(facecolor='white', alpha=0.8, edgecolor='none', boxstyle='round,pad=0.2')
     )
 
+    # Add legend
     legend_elements = [
-        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='skyblue', markersize=20, label='Politicians'),
-        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=15,
-                   label='Suspicious transactions'),
-        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='purple', markersize=15,
-                   label='Other connected transactions'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='skyblue',
+                   markersize=15, label='Politicians'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='red',
+                   markersize=10, label='Suspicious transactions'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='purple',
+                   markersize=10,
+                   label='Transactions made in same 10 days with other same ticker suspicious transaction')
     ]
 
-    legend = plt.legend(handles=legend_elements, loc='upper right', fontsize=28, title="Legend")
-    plt.setp(legend.get_texts(), fontweight='bold')
-    plt.setp(legend.get_title(), fontsize=30, fontweight='bold')
+    plt.legend(handles=legend_elements, loc='upper right', prop={'size': 20, 'weight': 'bold'})
 
-    plt.title("Suspicious Politician Transactions Network", size=40, fontweight='bold')
-
+    plt.title("Suspicious Transactions Network", size=35, fontweight='bold')
     plt.savefig(png_output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
 
 def main():
-    csv_path = "transactions_with_analysis.csv"
-
-    output_dir = ""
-    os.makedirs(output_dir, exist_ok=True)
-
-    gexf_output_path = os.path.join(output_dir, "suspicious_transactions_network.gexf")
-    png_output_path = os.path.join(output_dir, "suspicious_transactions_network.png")
+    project_root = "."
+    csv_path = os.path.join(project_root, "transactions_with_analysis.csv")
+    gexf_output_path = os.path.join(project_root, "suspicious_transactions_network.gexf")
+    png_output_path = os.path.join(project_root, "suspicious_transactions_network.png")
 
     if not os.path.exists(csv_path):
         print(f"Error: The file {csv_path} was not found.")

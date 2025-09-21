@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-09-20">
+  <meta lastmodifieddate="2025-09-21">
     <creator>NetworkX 3.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -11584,149 +11584,193 @@
     </nodes>
     <edges>
       <edge source="Capito, Shelley Moore" target="MSFT_Capito, Shelley Moore_2020-03-03" id="0" />
-      <edge source="Carper, Thomas R." target="TSLA_Carper, Thomas R._2020-12-30" id="1" />
-      <edge source="TSLA_Carper, Thomas R._2020-12-30" target="TSLA_Nancy Pelosi_2020-12-22" id="2" />
-      <edge source="TSLA_Carper, Thomas R._2020-12-30" target="TSLA_Gilbert Cisneros_2020-12-22" id="3" />
-      <edge source="Mark Dr Green" target="AMZA_Mark Dr Green_2020-12-24" id="4" />
-      <edge source="Mark Dr Green" target="AMZA_Mark Dr Green_2020-12-23" id="5" />
-      <edge source="Mark Dr Green" target="ET_Mark Dr Green_2020-12-10" id="6" />
-      <edge source="AMZA_Mark Dr Green_2020-12-24" target="AMZA_Mark Dr Green_2020-12-23" id="7" />
-      <edge source="Brian Mast" target="TLRY_Brian Mast_2020-11-06" id="8" />
-      <edge source="Donald Sternoff Beyer Jr" target="MSFT_Donald Sternoff Beyer Jr_2020-11-24" id="9" />
-      <edge source="Donald Sternoff Beyer Jr" target="ASML_Donald Sternoff Beyer Jr_2020-11-13" id="10" />
-      <edge source="Nancy Pelosi" target="MSFT_Nancy Pelosi_2020-02-28" id="11" />
-      <edge source="Nancy Pelosi" target="GOOGL_Nancy Pelosi_2020-02-27" id="12" />
-      <edge source="Nancy Pelosi" target="FB_Nancy Pelosi_2020-01-16" id="13" />
-      <edge source="Josh Gottheimer" target="UPS_Josh Gottheimer_2020-12-15" id="14" />
-      <edge source="John Rutherford" target="NCLH_John Rutherford_2020-05-11" id="15" />
-      <edge source="Dean Phillips" target="AMZN_Dean Phillips_2020-09-23" id="16" />
-      <edge source="Thomas Suozzi" target="JPM_Thomas Suozzi_2020-03-20" id="17" />
-      <edge source="Lloyd Doggett" target="KO_Lloyd Doggett_2020-10-02" id="18" />
-      <edge source="Lloyd Doggett" target="HD_Lloyd Doggett_2020-09-18" id="19" />
-      <edge source="Lloyd Doggett" target="PG_Lloyd Doggett_2020-02-19" id="20" />
-      <edge source="ET_Mark Dr Green_2020-12-10" target="ET_Mark Green_2020-12-01" id="21" />
-      <edge source="Rick Larsen" target="UNP_Rick Larsen_2020-11-25" id="22" />
-      <edge source="James E. Banks" target="PASO_James E. Banks_2020-11-24" id="23" />
-      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-11" id="24" />
-      <edge source="James E. Banks" target="KR_James E. Banks_2020-09-03" id="25" />
-      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-03" id="26" />
-      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-02" id="27" />
-      <edge source="James E. Banks" target="F_James E. Banks_2020-09-01" id="28" />
-      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-01" id="29" />
-      <edge source="MSFT_Donald Sternoff Beyer Jr_2020-11-24" target="MSFT_Josh Gottheimer_2020-11-17" id="30" />
-      <edge source="Michael Garcia" target="AAPL_Michael Garcia_2020-11-24" id="31" />
-      <edge source="Michael Garcia" target="FAS_Michael Garcia_2020-10-26" id="32" />
-      <edge source="Michael Garcia" target="TSLA_Michael Garcia_2020-10-26" id="33" />
-      <edge source="Michael Garcia" target="AAL_Michael Garcia_2020-10-26" id="34" />
-      <edge source="Michael Garcia" target="TSLA_Michael Garcia_2020-09-04" id="35" />
-      <edge source="Michael Garcia" target="FAS_Michael Garcia_2020-07-09" id="36" />
-      <edge source="Michael Garcia" target="AAL_Michael Garcia_2020-07-09" id="37" />
-      <edge source="AAPL_Michael Garcia_2020-11-24" target="AAPL_Donald Sternoff Beyer Jr_2020-11-17" id="38" />
-      <edge source="Kathy Castor" target="BRK.B_Kathy Castor_2020-07-16" id="39" />
-      <edge source="Kathy Castor" target="BRK.B_Kathy Castor_2020-05-18" id="40" />
-      <edge source="Richard W. Allen" target="HD_Richard W. Allen_2020-05-14" id="41" />
-      <edge source="Richard W. Allen" target="PG_Richard W. Allen_2020-04-17" id="42" />
-      <edge source="TLRY_Brian Mast_2020-11-06" target="TLRY_John A. Yarmuth_2020-11-05" id="43" />
-      <edge source="John A. Yarmuth" target="TLRY_John A. Yarmuth_2020-11-05" id="44" />
-      <edge source="John A. Yarmuth" target="GOOGL_John A. Yarmuth_2020-06-24" id="45" />
-      <edge source="James R. Langevin" target="PYPL_James R. Langevin_2020-10-30" id="46" />
-      <edge source="James R. Langevin" target="FB_James R. Langevin_2020-01-27" id="47" />
-      <edge source="James R. Langevin" target="FB_James R. Langevin_2020-01-17" id="48" />
-      <edge source="PYPL_James R. Langevin_2020-11-03" target="PYPL_James R. Langevin_2020-10-30" id="49" />
-      <edge source="PYPL_James R. Langevin_2020-10-30" target="PYPL_Dwight Evans_2020-10-29" id="50" />
-      <edge source="PYPL_James R. Langevin_2020-10-30" target="PYPL_James R. Langevin_2020-10-26" id="51" />
-      <edge source="TSLA_Dwight Evans_2020-10-29" target="TSLA_Michael Garcia_2020-10-26" id="52" />
-      <edge source="Wyden, Ron" target="AAPL_Wyden, Ron_2020-09-02" id="53" />
-      <edge source="Wyden, Ron" target="AMZN_Wyden, Ron_2020-09-01" id="54" />
-      <edge source="Wyden, Ron" target="AAPL_Wyden, Ron_2020-08-27" id="55" />
-      <edge source="Wyden, Ron" target="UPS_Wyden, Ron_2020-08-25" id="56" />
-      <edge source="Wyden, Ron" target="SQ_Wyden, Ron_2020-08-24" id="57" />
-      <edge source="Wyden, Ron" target="NFLX_Wyden, Ron_2020-08-20" id="58" />
-      <edge source="Wyden, Ron" target="UPS_Wyden, Ron_2020-08-19" id="59" />
-      <edge source="Wyden, Ron" target="AAPL_Wyden, Ron_2020-08-07" id="60" />
-      <edge source="MSFT_Robert J. Wittman_2020-10-02" target="MSFT_Suzan K. Delbene_2020-09-30" id="61" />
-      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-09-30" id="62" />
-      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-08-31" id="63" />
-      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-03-31" id="64" />
-      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-03-02" id="65" />
-      <edge source="Loeffler, Kelly" target="ADM_Loeffler, Kelly_2020-04-07" id="66" />
-      <edge source="HD_Lloyd Doggett_2020-09-18" target="HD_Kevin Hern_2020-09-17" id="67" />
-      <edge source="PASO_James E. Banks_2020-09-11" target="PASO_James E. Banks_2020-09-03" id="68" />
-      <edge source="PASO_James E. Banks_2020-09-11" target="PASO_James E. Banks_2020-09-02" id="69" />
-      <edge source="PASO_James E. Banks_2020-09-11" target="PASO_James E. Banks_2020-09-01" id="70" />
-      <edge source="AAPL_Roberts, Pat_2020-09-11" target="AAPL_Wyden, Ron_2020-09-02" id="71" />
-      <edge source="MSFT_Kevin Hern_2020-09-10" target="MSFT_Suzan K. Delbene_2020-08-31" id="72" />
-      <edge source="AAPL_Roberts, Pat_2020-09-09" target="AAPL_Wyden, Ron_2020-09-02" id="73" />
-      <edge source="TSLA_Michael Garcia_2020-09-04" target="TSLA_Dwight Evans_2020-09-04" id="74" />
-      <edge source="TSLA_Michael Garcia_2020-09-04" target="TSLA_Toomey, Pat_2020-08-28" id="75" />
-      <edge source="KR_James E. Banks_2020-09-03" target="KR_James E. Banks_2020-09-01" id="76" />
-      <edge source="KR_James E. Banks_2020-09-03" target="KR_James E. Banks_2020-08-28" id="77" />
-      <edge source="MSFT_Roberts, Pat_2020-09-03" target="MSFT_Suzan K. Delbene_2020-08-31" id="78" />
-      <edge source="AAPL_Roberts, Pat_2020-09-03" target="AAPL_Wyden, Ron_2020-09-02" id="79" />
-      <edge source="AAPL_Roberts, Pat_2020-09-03" target="AAPL_Wyden, Ron_2020-08-27" id="80" />
-      <edge source="PASO_James E. Banks_2020-09-03" target="PASO_James E. Banks_2020-09-02" id="81" />
-      <edge source="PASO_James E. Banks_2020-09-03" target="PASO_James E. Banks_2020-09-01" id="82" />
-      <edge source="MSFT_Roger W. Marshall_2020-09-03" target="MSFT_Suzan K. Delbene_2020-08-31" id="83" />
-      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Roberts, Pat_2020-09-02" id="84" />
-      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Bob Gibbs_2020-09-02" id="85" />
-      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Wyden, Ron_2020-08-27" id="86" />
-      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Toomey, Pat_2020-08-27" id="87" />
-      <edge source="PASO_James E. Banks_2020-09-02" target="PASO_James E. Banks_2020-09-01" id="88" />
-      <edge source="AAPL_Roberts, Pat_2020-09-02" target="AAPL_Wyden, Ron_2020-08-27" id="89" />
-      <edge source="AAPL_Bob Gibbs_2020-09-02" target="AAPL_Wyden, Ron_2020-08-27" id="90" />
-      <edge source="F_James E. Banks_2020-09-01" target="F_James E. Banks_2020-08-26" id="91" />
-      <edge source="AAPL_Wyden, Ron_2020-08-27" target="AAPL_Toomey, Pat_2020-08-27" id="92" />
-      <edge source="UPS_Wyden, Ron_2020-08-25" target="UPS_Wyden, Ron_2020-08-21" id="93" />
-      <edge source="UPS_Wyden, Ron_2020-08-25" target="UPS_Wyden, Ron_2020-08-19" id="94" />
-      <edge source="UPS_Wyden, Ron_2020-08-25" target="UPS_Wyden, Ron_2020-08-17" id="95" />
-      <edge source="SQ_Wyden, Ron_2020-08-24" target="SQ_Wyden, Ron_2020-08-21" id="96" />
-      <edge source="UPS_Wyden, Ron_2020-08-21" target="UPS_Wyden, Ron_2020-08-19" id="97" />
-      <edge source="Moran, Jerry" target="JNJ_Moran, Jerry_2020-08-21" id="98" />
-      <edge source="JNJ_Bob Gibbs_2020-08-21" target="JNJ_Moran, Jerry_2020-08-21" id="99" />
-      <edge source="NFLX_Wyden, Ron_2020-08-20" target="NFLX_David B. Mckinley_2020-08-20" id="100" />
-      <edge source="UPS_Wyden, Ron_2020-08-19" target="UPS_Wyden, Ron_2020-08-17" id="101" />
-      <edge source="UPS_Wyden, Ron_2020-08-19" target="UPS_Wyden, Ron_2020-08-14" id="102" />
-      <edge source="John Curtis" target="MSFT_John Curtis_2020-03-27" id="103" />
-      <edge source="John Curtis" target="CMCSA_John Curtis_2020-03-27" id="104" />
-      <edge source="John Curtis" target="DE_John Curtis_2020-03-27" id="105" />
-      <edge source="John Curtis" target="BDX_John Curtis_2020-03-27" id="106" />
-      <edge source="AAPL_Wyden, Ron_2020-08-07" target="AAPL_Roberts, Pat_2020-08-03" id="107" />
-      <edge source="Carol Devine Miller" target="CVX_Carol Devine Miller_2020-08-04" id="108" />
-      <edge source="BRK.B_Kathy Castor_2020-07-16" target="BRK.B_Cindy Axne_2020-07-13" id="109" />
-      <edge source="Cassidy, Bill" target="JNJ_Cassidy, Bill_2020-03-09" id="110" />
-      <edge source="Zoe Lofgren" target="QCOM_Zoe Lofgren_2020-06-16" id="111" />
-      <edge source="Zoe Lofgren" target="CSCO_Zoe Lofgren_2020-06-16" id="112" />
-      <edge source="Zoe Lofgren" target="TMUS_Zoe Lofgren_2020-02-18" id="113" />
-      <edge source="PG_Richard W. Allen_2020-04-17" target="PG_Loeffler, Kelly_2020-04-07" id="114" />
-      <edge source="DAL_Loeffler, Kelly_2020-04-07" target="DAL_Susan W. Brooks_2020-04-06" id="115" />
-      <edge source="Susan W. Brooks" target="DAL_Susan W. Brooks_2020-04-06" id="116" />
-      <edge source="Susan W. Brooks" target="MSFT_Susan W. Brooks_2020-04-06" id="117" />
-      <edge source="Susan W. Brooks" target="QCOM_Susan W. Brooks_2020-04-06" id="118" />
-      <edge source="MSFT_Susan W. Brooks_2020-04-06" target="MSFT_Suzan K. Delbene_2020-03-31" id="119" />
-      <edge source="MSFT_Susan W. Brooks_2020-04-06" target="MSFT_Daniel Meuser_2020-03-30" id="120" />
-      <edge source="MSFT_Susan W. Brooks_2020-04-06" target="MSFT_John Curtis_2020-03-27" id="121" />
-      <edge source="MSFT_Suzan K. Delbene_2020-03-31" target="MSFT_Daniel Meuser_2020-03-30" id="122" />
-      <edge source="MSFT_Suzan K. Delbene_2020-03-31" target="MSFT_John Curtis_2020-03-27" id="123" />
-      <edge source="MSFT_Suzan K. Delbene_2020-03-31" target="MSFT_Daniel Meuser_2020-03-26" id="124" />
-      <edge source="MSFT_Daniel Meuser_2020-03-30" target="MSFT_John Curtis_2020-03-27" id="125" />
-      <edge source="MSFT_John Curtis_2020-03-27" target="MSFT_Daniel Meuser_2020-03-26" id="126" />
-      <edge source="MSFT_John Curtis_2020-03-27" target="MSFT_Thomas Suozzi_2020-03-20" id="127" />
-      <edge source="JPM_John Curtis_2020-03-27" target="JPM_Thomas Suozzi_2020-03-20" id="128" />
-      <edge source="Peter Welch" target="ED_Peter Welch_2020-03-02" id="129" />
-      <edge source="JNJ_Cassidy, Bill_2020-03-09" target="JNJ_Capito, Shelley Moore_2020-03-03" id="130" />
-      <edge source="MSFT_Capito, Shelley Moore_2020-03-03" target="MSFT_Earl Blumenauer_2020-03-03" id="131" />
-      <edge source="MSFT_Capito, Shelley Moore_2020-03-03" target="MSFT_Suzan K. Delbene_2020-03-02" id="132" />
-      <edge source="MSFT_Capito, Shelley Moore_2020-03-03" target="MSFT_Nancy Pelosi_2020-02-28" id="133" />
-      <edge source="MSFT_Earl Blumenauer_2020-03-03" target="MSFT_Suzan K. Delbene_2020-03-02" id="134" />
-      <edge source="MSFT_Earl Blumenauer_2020-03-03" target="MSFT_Nancy Pelosi_2020-02-28" id="135" />
-      <edge source="MSFT_Suzan K. Delbene_2020-03-02" target="MSFT_Nancy Pelosi_2020-02-28" id="136" />
-      <edge source="MSFT_Suzan K. Delbene_2020-03-02" target="MSFT_Nancy Pelosi_2020-02-21" id="137" />
-      <edge source="GOOGL_Richard W. Allen_2020-02-28" target="GOOGL_Nancy Pelosi_2020-02-27" id="138" />
-      <edge source="MSFT_Nancy Pelosi_2020-02-28" target="MSFT_Nancy Pelosi_2020-02-21" id="139" />
-      <edge source="MSFT_Nancy Pelosi_2020-02-28" target="MSFT_Nancy Pelosi_2020-02-20" id="140" />
-      <edge source="Harley E. Rouda Jr." target="AMZN_Harley E. Rouda Jr._2020-02-20" id="141" />
-      <edge source="FB_James R. Langevin_2020-01-27" target="FB_James R. Langevin_2020-01-17" id="142" />
-      <edge source="FB_James R. Langevin_2020-01-17" target="FB_Nancy Pelosi_2020-01-16" id="143" />
+      <edge source="Capito, Shelley Moore" target="JNJ_Capito, Shelley Moore_2020-03-03" id="1" />
+      <edge source="Gilbert Cisneros" target="TSLA_Gilbert Cisneros_2020-12-22" id="2" />
+      <edge source="Carper, Thomas R." target="TSLA_Carper, Thomas R._2020-12-30" id="3" />
+      <edge source="Cindy Axne" target="BRK.B_Cindy Axne_2020-07-13" id="4" />
+      <edge source="TSLA_Carper, Thomas R._2020-12-30" target="TSLA_Nancy Pelosi_2020-12-22" id="5" />
+      <edge source="TSLA_Carper, Thomas R._2020-12-30" target="TSLA_Gilbert Cisneros_2020-12-22" id="6" />
+      <edge source="Kevin Hern" target="HD_Kevin Hern_2020-09-17" id="7" />
+      <edge source="Kevin Hern" target="MSFT_Kevin Hern_2020-09-10" id="8" />
+      <edge source="Mark Dr Green" target="AMZA_Mark Dr Green_2020-12-24" id="9" />
+      <edge source="Mark Dr Green" target="AMZA_Mark Dr Green_2020-12-23" id="10" />
+      <edge source="Mark Dr Green" target="ET_Mark Dr Green_2020-12-10" id="11" />
+      <edge source="AMZA_Mark Dr Green_2020-12-24" target="AMZA_Mark Dr Green_2020-12-23" id="12" />
+      <edge source="Brian Mast" target="TLRY_Brian Mast_2020-11-06" id="13" />
+      <edge source="Donald Sternoff Beyer Jr" target="MSFT_Donald Sternoff Beyer Jr_2020-11-24" id="14" />
+      <edge source="Donald Sternoff Beyer Jr" target="ASML_Donald Sternoff Beyer Jr_2020-11-13" id="15" />
+      <edge source="Donald Sternoff Beyer Jr" target="AAPL_Donald Sternoff Beyer Jr_2020-11-17" id="16" />
+      <edge source="Nancy Pelosi" target="MSFT_Nancy Pelosi_2020-02-28" id="17" />
+      <edge source="Nancy Pelosi" target="GOOGL_Nancy Pelosi_2020-02-27" id="18" />
+      <edge source="Nancy Pelosi" target="FB_Nancy Pelosi_2020-01-16" id="19" />
+      <edge source="Nancy Pelosi" target="TSLA_Nancy Pelosi_2020-12-22" id="20" />
+      <edge source="Nancy Pelosi" target="MSFT_Nancy Pelosi_2020-02-21" id="21" />
+      <edge source="Nancy Pelosi" target="MSFT_Nancy Pelosi_2020-02-20" id="22" />
+      <edge source="Roberts, Pat" target="AAPL_Roberts, Pat_2020-09-11" id="23" />
+      <edge source="Roberts, Pat" target="AAPL_Roberts, Pat_2020-09-09" id="24" />
+      <edge source="Roberts, Pat" target="AAPL_Roberts, Pat_2020-09-03" id="25" />
+      <edge source="Roberts, Pat" target="AAPL_Roberts, Pat_2020-09-02" id="26" />
+      <edge source="Roberts, Pat" target="AAPL_Roberts, Pat_2020-08-03" id="27" />
+      <edge source="Roberts, Pat" target="MSFT_Roberts, Pat_2020-09-03" id="28" />
+      <edge source="Josh Gottheimer" target="UPS_Josh Gottheimer_2020-12-15" id="29" />
+      <edge source="Josh Gottheimer" target="MSFT_Josh Gottheimer_2020-11-17" id="30" />
+      <edge source="John Rutherford" target="NCLH_John Rutherford_2020-05-11" id="31" />
+      <edge source="Dean Phillips" target="AMZN_Dean Phillips_2020-09-23" id="32" />
+      <edge source="Thomas Suozzi" target="JPM_Thomas Suozzi_2020-03-20" id="33" />
+      <edge source="Thomas Suozzi" target="MSFT_Thomas Suozzi_2020-03-20" id="34" />
+      <edge source="Lloyd Doggett" target="KO_Lloyd Doggett_2020-10-02" id="35" />
+      <edge source="Lloyd Doggett" target="HD_Lloyd Doggett_2020-09-18" id="36" />
+      <edge source="Lloyd Doggett" target="PG_Lloyd Doggett_2020-02-19" id="37" />
+      <edge source="ET_Mark Dr Green_2020-12-10" target="ET_Mark Green_2020-12-01" id="38" />
+      <edge source="Mark Green" target="ET_Mark Green_2020-12-01" id="39" />
+      <edge source="Rick Larsen" target="UNP_Rick Larsen_2020-11-25" id="40" />
+      <edge source="James E. Banks" target="PASO_James E. Banks_2020-11-24" id="41" />
+      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-11" id="42" />
+      <edge source="James E. Banks" target="KR_James E. Banks_2020-09-03" id="43" />
+      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-03" id="44" />
+      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-02" id="45" />
+      <edge source="James E. Banks" target="F_James E. Banks_2020-09-01" id="46" />
+      <edge source="James E. Banks" target="PASO_James E. Banks_2020-09-01" id="47" />
+      <edge source="James E. Banks" target="F_James E. Banks_2020-08-26" id="48" />
+      <edge source="James E. Banks" target="KR_James E. Banks_2020-09-01" id="49" />
+      <edge source="James E. Banks" target="KR_James E. Banks_2020-08-28" id="50" />
+      <edge source="MSFT_Donald Sternoff Beyer Jr_2020-11-24" target="MSFT_Josh Gottheimer_2020-11-17" id="51" />
+      <edge source="Michael Garcia" target="AAPL_Michael Garcia_2020-11-24" id="52" />
+      <edge source="Michael Garcia" target="FAS_Michael Garcia_2020-10-26" id="53" />
+      <edge source="Michael Garcia" target="TSLA_Michael Garcia_2020-10-26" id="54" />
+      <edge source="Michael Garcia" target="AAL_Michael Garcia_2020-10-26" id="55" />
+      <edge source="Michael Garcia" target="TSLA_Michael Garcia_2020-09-04" id="56" />
+      <edge source="Michael Garcia" target="FAS_Michael Garcia_2020-07-09" id="57" />
+      <edge source="Michael Garcia" target="AAL_Michael Garcia_2020-07-09" id="58" />
+      <edge source="AAPL_Michael Garcia_2020-11-24" target="AAPL_Donald Sternoff Beyer Jr_2020-11-17" id="59" />
+      <edge source="Bob Gibbs" target="AAPL_Bob Gibbs_2020-09-02" id="60" />
+      <edge source="Bob Gibbs" target="JNJ_Bob Gibbs_2020-08-21" id="61" />
+      <edge source="Kathy Castor" target="BRK.B_Kathy Castor_2020-07-16" id="62" />
+      <edge source="Kathy Castor" target="BRK.B_Kathy Castor_2020-05-18" id="63" />
+      <edge source="Richard W. Allen" target="HD_Richard W. Allen_2020-05-14" id="64" />
+      <edge source="Richard W. Allen" target="PG_Richard W. Allen_2020-04-17" id="65" />
+      <edge source="Richard W. Allen" target="GOOGL_Richard W. Allen_2020-02-28" id="66" />
+      <edge source="Earl Blumenauer" target="MSFT_Earl Blumenauer_2020-03-03" id="67" />
+      <edge source="TLRY_Brian Mast_2020-11-06" target="TLRY_John A. Yarmuth_2020-11-05" id="68" />
+      <edge source="John A. Yarmuth" target="TLRY_John A. Yarmuth_2020-11-05" id="69" />
+      <edge source="John A. Yarmuth" target="GOOGL_John A. Yarmuth_2020-06-24" id="70" />
+      <edge source="James R. Langevin" target="PYPL_James R. Langevin_2020-10-30" id="71" />
+      <edge source="James R. Langevin" target="FB_James R. Langevin_2020-01-27" id="72" />
+      <edge source="James R. Langevin" target="FB_James R. Langevin_2020-01-17" id="73" />
+      <edge source="James R. Langevin" target="PYPL_James R. Langevin_2020-11-03" id="74" />
+      <edge source="James R. Langevin" target="PYPL_James R. Langevin_2020-10-26" id="75" />
+      <edge source="PYPL_James R. Langevin_2020-11-03" target="PYPL_James R. Langevin_2020-10-30" id="76" />
+      <edge source="PYPL_James R. Langevin_2020-10-30" target="PYPL_Dwight Evans_2020-10-29" id="77" />
+      <edge source="PYPL_James R. Langevin_2020-10-30" target="PYPL_James R. Langevin_2020-10-26" id="78" />
+      <edge source="Dwight Evans" target="TSLA_Dwight Evans_2020-10-29" id="79" />
+      <edge source="Dwight Evans" target="TSLA_Dwight Evans_2020-09-04" id="80" />
+      <edge source="Dwight Evans" target="PYPL_Dwight Evans_2020-10-29" id="81" />
+      <edge source="TSLA_Dwight Evans_2020-10-29" target="TSLA_Michael Garcia_2020-10-26" id="82" />
+      <edge source="Robert J. Wittman" target="MSFT_Robert J. Wittman_2020-10-02" id="83" />
+      <edge source="Wyden, Ron" target="AAPL_Wyden, Ron_2020-09-02" id="84" />
+      <edge source="Wyden, Ron" target="AMZN_Wyden, Ron_2020-09-01" id="85" />
+      <edge source="Wyden, Ron" target="AAPL_Wyden, Ron_2020-08-27" id="86" />
+      <edge source="Wyden, Ron" target="UPS_Wyden, Ron_2020-08-25" id="87" />
+      <edge source="Wyden, Ron" target="SQ_Wyden, Ron_2020-08-24" id="88" />
+      <edge source="Wyden, Ron" target="NFLX_Wyden, Ron_2020-08-20" id="89" />
+      <edge source="Wyden, Ron" target="UPS_Wyden, Ron_2020-08-19" id="90" />
+      <edge source="Wyden, Ron" target="AAPL_Wyden, Ron_2020-08-07" id="91" />
+      <edge source="Wyden, Ron" target="SQ_Wyden, Ron_2020-08-21" id="92" />
+      <edge source="Wyden, Ron" target="UPS_Wyden, Ron_2020-08-21" id="93" />
+      <edge source="Wyden, Ron" target="UPS_Wyden, Ron_2020-08-17" id="94" />
+      <edge source="Wyden, Ron" target="UPS_Wyden, Ron_2020-08-14" id="95" />
+      <edge source="MSFT_Robert J. Wittman_2020-10-02" target="MSFT_Suzan K. Delbene_2020-09-30" id="96" />
+      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-09-30" id="97" />
+      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-08-31" id="98" />
+      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-03-31" id="99" />
+      <edge source="Suzan K. Delbene" target="MSFT_Suzan K. Delbene_2020-03-02" id="100" />
+      <edge source="Loeffler, Kelly" target="ADM_Loeffler, Kelly_2020-04-07" id="101" />
+      <edge source="Loeffler, Kelly" target="PG_Loeffler, Kelly_2020-04-07" id="102" />
+      <edge source="Loeffler, Kelly" target="DAL_Loeffler, Kelly_2020-04-07" id="103" />
+      <edge source="HD_Lloyd Doggett_2020-09-18" target="HD_Kevin Hern_2020-09-17" id="104" />
+      <edge source="PASO_James E. Banks_2020-09-11" target="PASO_James E. Banks_2020-09-03" id="105" />
+      <edge source="PASO_James E. Banks_2020-09-11" target="PASO_James E. Banks_2020-09-02" id="106" />
+      <edge source="PASO_James E. Banks_2020-09-11" target="PASO_James E. Banks_2020-09-01" id="107" />
+      <edge source="AAPL_Roberts, Pat_2020-09-11" target="AAPL_Wyden, Ron_2020-09-02" id="108" />
+      <edge source="MSFT_Kevin Hern_2020-09-10" target="MSFT_Suzan K. Delbene_2020-08-31" id="109" />
+      <edge source="AAPL_Roberts, Pat_2020-09-09" target="AAPL_Wyden, Ron_2020-09-02" id="110" />
+      <edge source="TSLA_Michael Garcia_2020-09-04" target="TSLA_Dwight Evans_2020-09-04" id="111" />
+      <edge source="TSLA_Michael Garcia_2020-09-04" target="TSLA_Toomey, Pat_2020-08-28" id="112" />
+      <edge source="Roger W. Marshall" target="MSFT_Roger W. Marshall_2020-09-03" id="113" />
+      <edge source="KR_James E. Banks_2020-09-03" target="KR_James E. Banks_2020-09-01" id="114" />
+      <edge source="KR_James E. Banks_2020-09-03" target="KR_James E. Banks_2020-08-28" id="115" />
+      <edge source="MSFT_Roberts, Pat_2020-09-03" target="MSFT_Suzan K. Delbene_2020-08-31" id="116" />
+      <edge source="AAPL_Roberts, Pat_2020-09-03" target="AAPL_Wyden, Ron_2020-09-02" id="117" />
+      <edge source="AAPL_Roberts, Pat_2020-09-03" target="AAPL_Wyden, Ron_2020-08-27" id="118" />
+      <edge source="PASO_James E. Banks_2020-09-03" target="PASO_James E. Banks_2020-09-02" id="119" />
+      <edge source="PASO_James E. Banks_2020-09-03" target="PASO_James E. Banks_2020-09-01" id="120" />
+      <edge source="MSFT_Roger W. Marshall_2020-09-03" target="MSFT_Suzan K. Delbene_2020-08-31" id="121" />
+      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Roberts, Pat_2020-09-02" id="122" />
+      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Bob Gibbs_2020-09-02" id="123" />
+      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Wyden, Ron_2020-08-27" id="124" />
+      <edge source="AAPL_Wyden, Ron_2020-09-02" target="AAPL_Toomey, Pat_2020-08-27" id="125" />
+      <edge source="PASO_James E. Banks_2020-09-02" target="PASO_James E. Banks_2020-09-01" id="126" />
+      <edge source="AAPL_Roberts, Pat_2020-09-02" target="AAPL_Wyden, Ron_2020-08-27" id="127" />
+      <edge source="AAPL_Bob Gibbs_2020-09-02" target="AAPL_Wyden, Ron_2020-08-27" id="128" />
+      <edge source="F_James E. Banks_2020-09-01" target="F_James E. Banks_2020-08-26" id="129" />
+      <edge source="Toomey, Pat" target="TSLA_Toomey, Pat_2020-08-28" id="130" />
+      <edge source="Toomey, Pat" target="AAPL_Toomey, Pat_2020-08-27" id="131" />
+      <edge source="AAPL_Wyden, Ron_2020-08-27" target="AAPL_Toomey, Pat_2020-08-27" id="132" />
+      <edge source="David B. Mckinley" target="NFLX_David B. Mckinley_2020-08-20" id="133" />
+      <edge source="UPS_Wyden, Ron_2020-08-25" target="UPS_Wyden, Ron_2020-08-21" id="134" />
+      <edge source="UPS_Wyden, Ron_2020-08-25" target="UPS_Wyden, Ron_2020-08-19" id="135" />
+      <edge source="UPS_Wyden, Ron_2020-08-25" target="UPS_Wyden, Ron_2020-08-17" id="136" />
+      <edge source="SQ_Wyden, Ron_2020-08-24" target="SQ_Wyden, Ron_2020-08-21" id="137" />
+      <edge source="UPS_Wyden, Ron_2020-08-21" target="UPS_Wyden, Ron_2020-08-19" id="138" />
+      <edge source="Moran, Jerry" target="JNJ_Moran, Jerry_2020-08-21" id="139" />
+      <edge source="JNJ_Bob Gibbs_2020-08-21" target="JNJ_Moran, Jerry_2020-08-21" id="140" />
+      <edge source="NFLX_Wyden, Ron_2020-08-20" target="NFLX_David B. Mckinley_2020-08-20" id="141" />
+      <edge source="UPS_Wyden, Ron_2020-08-19" target="UPS_Wyden, Ron_2020-08-17" id="142" />
+      <edge source="UPS_Wyden, Ron_2020-08-19" target="UPS_Wyden, Ron_2020-08-14" id="143" />
+      <edge source="John Curtis" target="MSFT_John Curtis_2020-03-27" id="144" />
+      <edge source="John Curtis" target="CMCSA_John Curtis_2020-03-27" id="145" />
+      <edge source="John Curtis" target="DE_John Curtis_2020-03-27" id="146" />
+      <edge source="John Curtis" target="BDX_John Curtis_2020-03-27" id="147" />
+      <edge source="John Curtis" target="JPM_John Curtis_2020-03-27" id="148" />
+      <edge source="AAPL_Wyden, Ron_2020-08-07" target="AAPL_Roberts, Pat_2020-08-03" id="149" />
+      <edge source="Carol Devine Miller" target="CVX_Carol Devine Miller_2020-08-04" id="150" />
+      <edge source="BRK.B_Kathy Castor_2020-07-16" target="BRK.B_Cindy Axne_2020-07-13" id="151" />
+      <edge source="Cassidy, Bill" target="JNJ_Cassidy, Bill_2020-03-09" id="152" />
+      <edge source="Zoe Lofgren" target="QCOM_Zoe Lofgren_2020-06-16" id="153" />
+      <edge source="Zoe Lofgren" target="CSCO_Zoe Lofgren_2020-06-16" id="154" />
+      <edge source="Zoe Lofgren" target="TMUS_Zoe Lofgren_2020-02-18" id="155" />
+      <edge source="PG_Richard W. Allen_2020-04-17" target="PG_Loeffler, Kelly_2020-04-07" id="156" />
+      <edge source="DAL_Loeffler, Kelly_2020-04-07" target="DAL_Susan W. Brooks_2020-04-06" id="157" />
+      <edge source="Susan W. Brooks" target="DAL_Susan W. Brooks_2020-04-06" id="158" />
+      <edge source="Susan W. Brooks" target="MSFT_Susan W. Brooks_2020-04-06" id="159" />
+      <edge source="Susan W. Brooks" target="QCOM_Susan W. Brooks_2020-04-06" id="160" />
+      <edge source="MSFT_Susan W. Brooks_2020-04-06" target="MSFT_Suzan K. Delbene_2020-03-31" id="161" />
+      <edge source="MSFT_Susan W. Brooks_2020-04-06" target="MSFT_Daniel Meuser_2020-03-30" id="162" />
+      <edge source="MSFT_Susan W. Brooks_2020-04-06" target="MSFT_John Curtis_2020-03-27" id="163" />
+      <edge source="MSFT_Suzan K. Delbene_2020-03-31" target="MSFT_Daniel Meuser_2020-03-30" id="164" />
+      <edge source="MSFT_Suzan K. Delbene_2020-03-31" target="MSFT_John Curtis_2020-03-27" id="165" />
+      <edge source="MSFT_Suzan K. Delbene_2020-03-31" target="MSFT_Daniel Meuser_2020-03-26" id="166" />
+      <edge source="Daniel Meuser" target="MSFT_Daniel Meuser_2020-03-30" id="167" />
+      <edge source="Daniel Meuser" target="MSFT_Daniel Meuser_2020-03-26" id="168" />
+      <edge source="MSFT_Daniel Meuser_2020-03-30" target="MSFT_John Curtis_2020-03-27" id="169" />
+      <edge source="MSFT_John Curtis_2020-03-27" target="MSFT_Daniel Meuser_2020-03-26" id="170" />
+      <edge source="MSFT_John Curtis_2020-03-27" target="MSFT_Thomas Suozzi_2020-03-20" id="171" />
+      <edge source="JPM_John Curtis_2020-03-27" target="JPM_Thomas Suozzi_2020-03-20" id="172" />
+      <edge source="Peter Welch" target="ED_Peter Welch_2020-03-02" id="173" />
+      <edge source="JNJ_Cassidy, Bill_2020-03-09" target="JNJ_Capito, Shelley Moore_2020-03-03" id="174" />
+      <edge source="MSFT_Capito, Shelley Moore_2020-03-03" target="MSFT_Earl Blumenauer_2020-03-03" id="175" />
+      <edge source="MSFT_Capito, Shelley Moore_2020-03-03" target="MSFT_Suzan K. Delbene_2020-03-02" id="176" />
+      <edge source="MSFT_Capito, Shelley Moore_2020-03-03" target="MSFT_Nancy Pelosi_2020-02-28" id="177" />
+      <edge source="MSFT_Earl Blumenauer_2020-03-03" target="MSFT_Suzan K. Delbene_2020-03-02" id="178" />
+      <edge source="MSFT_Earl Blumenauer_2020-03-03" target="MSFT_Nancy Pelosi_2020-02-28" id="179" />
+      <edge source="MSFT_Suzan K. Delbene_2020-03-02" target="MSFT_Nancy Pelosi_2020-02-28" id="180" />
+      <edge source="MSFT_Suzan K. Delbene_2020-03-02" target="MSFT_Nancy Pelosi_2020-02-21" id="181" />
+      <edge source="GOOGL_Richard W. Allen_2020-02-28" target="GOOGL_Nancy Pelosi_2020-02-27" id="182" />
+      <edge source="MSFT_Nancy Pelosi_2020-02-28" target="MSFT_Nancy Pelosi_2020-02-21" id="183" />
+      <edge source="MSFT_Nancy Pelosi_2020-02-28" target="MSFT_Nancy Pelosi_2020-02-20" id="184" />
+      <edge source="Harley E. Rouda Jr." target="AMZN_Harley E. Rouda Jr._2020-02-20" id="185" />
+      <edge source="FB_James R. Langevin_2020-01-27" target="FB_James R. Langevin_2020-01-17" id="186" />
+      <edge source="FB_James R. Langevin_2020-01-17" target="FB_Nancy Pelosi_2020-01-16" id="187" />
     </edges>
   </graph>
 </gexf>
